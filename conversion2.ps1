@@ -1,6 +1,14 @@
-﻿# Project home directory
-$projectHome = $HOME + "\Desktop\FeesExtraction\"
-$projectTemp = $projectHome + "temp\"
+﻿#detect system
+$detectOS = [System.Environment]::OSVersion.Platform
+if ($detectOS = "Unix") {
+    $dirChar = "/" 
+} else {
+    $dirChar = "\"
+}
+
+# Project home directory
+$projectHome = $HOME + $dirChar + "Desktop" +$dirChar + "FeesExtraction" + $dirChar
+$projectTemp = $projectHome + "temp" + $dirChar
 $testingFile = $projectHome + "testing.txt"
 
 # Create/Append the error log
@@ -35,11 +43,17 @@ if ($startList) {
 
 $importDataSet = Import-Csv $startListPath
 
+<#NOTE -
+
+Move most (or ALL) of these fields to a new table object
+
+#>
+
 $importDataSet | Add-Member -MemberType NoteProperty -Name CityOrEntity -Value $null
 $importDataSet | Add-Member -MemberType NoteProperty -Name State -Value $null
 $importDataSet | Add-Member -MemberType NoteProperty -Name Assigned -Value $env:USERNAME
 $importDataSet | Add-Member -MemberType NoteProperty -Name "Form Completed" -Value Schrodinger
-$importDataSet | Add-Member -MemberType NoteProperty -Name Notes -Value $null
+# $importDataSet | Add-Member -MemberType NoteProperty -Name Notes -Value $null
 $importDataSet | Add-Member -MemberType NoteProperty -Name Downloaded -Value $null
 $importDataSet | Add-Member -MemberType NoteProperty -Name "Row Type" -Value $null
 $importDataSet | Add-Member -MemberType NoteProperty -Name lawson_infopro_polygon -Value $null
@@ -90,12 +104,12 @@ $importDataSet | Add-Member -MemberType NoteProperty -Name invoice_group -Value 
 $importDataSet | Add-Member -MemberType NoteProperty -Name is_CRC_Consolidated -Value $null
 $importDataSet | Add-Member -MemberType NoteProperty -Name sold_as -Value $null
 $importDataSet | Add-Member -MemberType NoteProperty -Name bundle_id -Value $null
-$importDataSet | Add-Member -MemberType NoteProperty -Name Notes -Value $null
+# $importDataSet | Add-Member -MemberType NoteProperty -Name Notes -Value $null
 
-$divisionResourcesFile = $projectHome + "Resources\rs_divlist_20170608.csv"
+$divisionResourcesFile = $projectHome + "Resources" + $dirChar + "rs_divlist_20170608.csv"
 $divisionResourcesCSV = Import-Csv $divisionResourcesFile
 $divisionResourcesCSV | Add-Member -MemberType NoteProperty -Name "Link" -Value $null
-$divisionResourcesCSV | foreach {
+$divisionResourcesCSV | ForEach-Object {
 
  $_.Area = $_.Area -replace ': ','-'
 
@@ -106,7 +120,7 @@ New-Object System.Data.DataTable "$divListwithLinks"
 $divListwithLinks | Add-Member -MemberType NoteProperty -Name "DivNum" -Value $null
 $divListwithLinks | Add-Member -MemberType NoteProperty -Name "Link" -Value $null
 
-$divisionList | foreach {
+$divisionList | ForEach-Object {
 
     $row = $divListwithLinks.NewRow()
     $row.DivNum = $_
@@ -114,7 +128,7 @@ $divisionList | foreach {
 
 }
 
-$importDataSet | foreach {
+$importDataSet | ForEach-Object {
 
     $rateId = $_.LawsonDiv + "-" + $_.DivisionNo + "-" + $_.PolygonID
     $_."Rate ID" = $rateId
