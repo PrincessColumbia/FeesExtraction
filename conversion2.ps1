@@ -1,6 +1,6 @@
 ﻿#detect system
 $detectOS = [System.Environment]::OSVersion.Platform
-if ($detectOS = "Unix") {
+if ($detectOS -eq "Unix") {
     $dirChar = "/" 
 } else {
     $dirChar = "\"
@@ -9,7 +9,10 @@ if ($detectOS = "Unix") {
 # Project home directory
 $projectHome = $HOME + $dirChar + "Desktop" +$dirChar + "FeesExtraction" + $dirChar
 $projectTemp = $projectHome + "temp" + $dirChar
-$testingFile = $projectHome + "testing.txt"
+$summaryRoutedAudit = $projectHome + "Audit" + $dirChar + "Summary Routed" + $dirChar
+
+# Today's Date (In short format)
+$today = Get-Date -Format d
 
 # Create/Append the error log
 $errorLog = $projectHome + "Error_Log.txt"
@@ -41,6 +44,7 @@ if ($startList) {
         exit
     }
 
+
 $importDataSet = Import-Csv $startListPath
 
 <#NOTE -
@@ -52,9 +56,10 @@ Move most (or ALL) of these fields to a new table object
 $importDataSet | Add-Member -MemberType NoteProperty -Name CityOrEntity -Value $null
 $importDataSet | Add-Member -MemberType NoteProperty -Name State -Value $null
 $importDataSet | Add-Member -MemberType NoteProperty -Name Assigned -Value $env:USERNAME
-$importDataSet | Add-Member -MemberType NoteProperty -Name "Form Completed" -Value Schrodinger
+# $importDataSet | Add-Member -MemberType NoteProperty -Name "Form Completed" -Value Schrodinger
 # $importDataSet | Add-Member -MemberType NoteProperty -Name Notes -Value $null
-$importDataSet | Add-Member -MemberType NoteProperty -Name Downloaded -Value $null
+
+<# $importDataSet | Add-Member -MemberType NoteProperty -Name Downloaded -Value $null
 $importDataSet | Add-Member -MemberType NoteProperty -Name "Row Type" -Value $null
 $importDataSet | Add-Member -MemberType NoteProperty -Name lawson_infopro_polygon -Value $null
 $importDataSet | Add-Member -MemberType NoteProperty -Name is_cust_owned -Value $null
@@ -106,29 +111,45 @@ $importDataSet | Add-Member -MemberType NoteProperty -Name sold_as -Value $null
 $importDataSet | Add-Member -MemberType NoteProperty -Name bundle_id -Value $null
 # $importDataSet | Add-Member -MemberType NoteProperty -Name Notes -Value $null
 
-$divisionResourcesFile = $projectHome + "Resources" + $dirChar + "rs_divlist_20170608.csv"
+#>
+
+$divisionResourcesFile = $projectHome + "Resources" + $dirChar + "rs_divlist.csv"
 $divisionResourcesCSV = Import-Csv $divisionResourcesFile
-$divisionResourcesCSV | Add-Member -MemberType NoteProperty -Name "Link" -Value $null
+$divisionResourcesCSV | Add-Member -MemberType NoteProperty -Name "DataEntryFileName" -Value $null
+$divisionResourcesCSV | Add-Member -MemberType NoteProperty -Name "Data Entry Link" -Value $null
+$divisionResourcesCSV | Add-Member -MemberType NoteProperty -Name "BillingFileName" -Value $null
+$divisionResourcesCSV | Add-Member -MemberType NoteProperty -Name "Billing and Collections Link" -Value $null
+
+
 $divisionResourcesCSV | ForEach-Object {
 
  $_.Area = $_.Area -replace ': ','-'
 
+    $AreaWeb = $_.Area -replace ' ','%20'
+    $AreaWebSub = $AreaWeb + "/"
+    $areaSpaceUnderscore = $_.Area -replace ' ','_'
+    $areaDashUnderscore = $_.Area -replace '-','_'
+    $areaOnlyUnderscore = $areaSpaceUnderscore -replace '-','_'
+    $AreaOnly = $_.Area.Substring(4)
+    $AreaOnlyUnderscore = $areaSpaceUnderscore.Substring(4)
+
+    $DataEntryName = "DIV_" + $_."Division #" + "_Data_Entry_Information.html"
+    $BillingName = "DIV_" + $_."Division #" + "_Billing_and_Collection_Information.html"
+
+    $compassWebLocationDiv = "http://compass.repsrv.com/DivisionalDocuments/"
+    $genDocsFileBilling = $compassWebLocationDiv + $AreaWeb + "/DIV_" + $_."Division #" + "_Billing_and_Collection_Information.html"
+    $genDocsFileDataEntry = $compassWebLocationDiv + $AreaWeb + "/" + $DataEntryName
+    $_."Data Entry Link" = $genDocsFileDataEntry
+    $_."Billing and Collections Link" = $genDocsFileBilling
+    $_.DataEntryFileName = $DataEntryName
+    $_.BillingFileName = $BillingName
 }
 
-$divisionList = $importDataSet.DivisionNo | Select-Object -Unique
-New-Object System.Data.DataTable "$divListwithLinks"
-$divListwithLinks | Add-Member -MemberType NoteProperty -Name "DivNum" -Value $null
-$divListwithLinks | Add-Member -MemberType NoteProperty -Name "Link" -Value $null
-
-$divisionList | ForEach-Object {
-
-    $row = $divListwithLinks.NewRow()
-    $row.DivNum = $_
-    $row.Link = $_ + " test"
-
-}
 
 $importDataSet | ForEach-Object {
+
+    $_.Name = $_.Name -replace " ","_"
+    $_.Name = $_.Name -replace "__","_"
 
     $rateId = $_.LawsonDiv + "-" + $_.DivisionNo + "-" + $_.PolygonID
     $_."Rate ID" = $rateId
@@ -152,7 +173,152 @@ $importDataSet | ForEach-Object {
 
 }
 
+$divisionList = $importDataSet.DivisionNo | Select-Object -Unique
+$tempTable = $projectTemp + "temp-table.csv"
+Add-Content -Path $tempTable -Value 'DivNum,DataEntryFileName,DataEntryLink,BillingFileName,BillingLink'
 
+$divisionList | ForEach-Object {
+
+    $divNoTemp = $_
+    $dataEntryFilenameTemp = $divisionResourcesCSV | Where-Object { $_."Division #" -eq $divNoTemp } | Get-Member -Name "DataEntryFileName"
+    $dataEntryFilenameTemp = $dataEntryFilenameTemp -split "=" | Where { $_ -notmatch "string" }
+    $divDataItem1 = $divisionResourcesCSV | Where-Object { $_."Division #" -eq $divNoTemp } | Get-Member -Name "Data Entry Link"
+    $divDataItem1 = $divDataItem1 -split "=" | Where { $_ -notmatch "string" }
+    $billingFilenameTemp = $divisionResourcesCSV | Where-Object { $_."Division #" -eq $divNoTemp } | Get-Member -Name "BillingFileName"
+    $billingFilenameTemp = $billingFilenameTemp -split "=" | Where { $_ -notmatch "string" }
+    $divDataItem2 = $divisionResourcesCSV | Where-Object { $_."Division #" -eq $divNoTemp } | Get-Member -Name "Billing and Collections Link"
+    $divDataItem2 = $divDataItem2 -split "=" | Where { $_ -notmatch "string" }
+
+
+    $rowToTemp = $divNoTemp + "," + $dataEntryFilenameTemp + "," + $divDataItem1 + "," + $billingFilenameTemp + "," + $divDataItem2
+    Add-Content -Path $tempTable -Value $rowToTemp
+
+}
+
+
+$divisionListWithLinks = Import-Csv $tempTable
+$divisionListWithLinks | ForEach-Object {
+    
+
+    $fileSaveLocation = $projectTemp + $_.DataEntryFileName
+    [io.file]::WriteAllText($fileSaveLocation,(Invoke-WebRequest -URI $_.DataEntryLink -UseDefaultCredentials -UseBasicParsing).content)
+    $fileSaveLocation = $projectTemp + $_.BillingFileName
+    [io.file]::WriteAllText($fileSaveLocation,(Invoke-WebRequest -URI $_.BillingLink -UseDefaultCredentials -UseBasicParsing).content)
+
+}
+
+
+
+#Prepare data for the tracker
+$trackerExportRefined = $projectHome + "RefinedExport.csv"
+
+$trackerExport = @()
+$importDataSet | ForEach-Object {
+
+    # $summaryRoutedValue = 0
+    $summaryRoutedFile = $projectTemp + $_.Name
+        # Solid Waste
+        $summaryRoutedStringSearchSW = Select-String -Path $summaryRoutedFile -Pattern "Solid\s+Waste\s+Rate" -Context 0,2
+        $summaryRoutedStringSearchSW = $summaryRoutedStringSearchSW -split "</td>" | Where { $_ -notmatch "Rate" }
+        $summaryRoutedStringSearchSW = $summaryRoutedStringSearchSW -split ">" | Where { $_ -notmatch "class" }
+        if ($summaryRoutedStringSearchSW -Match "table") {
+            $summaryRoutedValueSW = 1
+            } else {
+            $summaryRoutedValueSW = 0
+        }
+        # Solid Waste Additional Container
+        $summaryRoutedStringSearchSWAdd = Select-String -Path $summaryRoutedFile -Pattern "Solid\s+Waste\s+Additional\s+Container\s+Rental\s+Rate" -Context 0,2
+        $summaryRoutedStringSearchSWAdd = $summaryRoutedStringSearchSWAdd -split "</td>" | Where { $_ -notmatch "Rate" }
+        $summaryRoutedStringSearchSWAdd = $summaryRoutedStringSearchSWAdd -split ">" | Where { $_ -notmatch "class" }
+        if ($summaryRoutedStringSearchSWAdd -Match "table") {
+            $summaryRoutedValueSWAdd = 1
+            } else {
+            $summaryRoutedValueSWAdd = 0
+        }
+        # Recycle
+        $summaryRoutedStringSearchREC = Select-String -Path $summaryRoutedFile -Pattern "Solid\s+Waste\s+Rate" -Context 0,2
+        $summaryRoutedStringSearchREC = $summaryRoutedStringSearchREC -split "</td>" | Where { $_ -notmatch "Rate" }
+        $summaryRoutedStringSearchREC = $summaryRoutedStringSearchREC -split ">" | Where { $_ -notmatch "class" }
+        if ($summaryRoutedStringSearchREC -Match "table") {
+            $summaryRoutedValueREC = 1
+            } else {
+            $summaryRoutedValueREC = 0
+        }
+        # Recycle Additional Container
+        $summaryRoutedStringSearchRECAdd = Select-String -Path $summaryRoutedFile -Pattern "REC\s+Additional\s+Container\s+Rental\s+Rate" -Context 0,2
+        $summaryRoutedStringSearchRECAdd = $summaryRoutedStringSearchRECAdd -split "</td>" | Where { $_ -notmatch "Rate" }
+        $summaryRoutedStringSearchRECAdd = $summaryRoutedStringSearchRECAdd -split ">" | Where { $_ -notmatch "class" }
+        if ($summaryRoutedStringSearchRECAdd -Match "table") {
+            $summaryRoutedValueRECAdd = 1
+            } else {
+            $summaryRoutedValueRECAdd = 0
+        }
+
+        # Yard Waste
+        $summaryRoutedStringSearchYW = Select-String -Path $summaryRoutedFile -Pattern "Solid\s+Waste\s+Rate" -Context 0,2
+        $summaryRoutedStringSearchYW = $summaryRoutedStringSearchYW -split "</td>" | Where { $_ -notmatch "Rate" }
+        $summaryRoutedStringSearchYW = $summaryRoutedStringSearchYW -split ">" | Where { $_ -notmatch "class" }
+        if ($summaryRoutedStringSearchYW -Match "table") {
+            $summaryRoutedValueYW = 1
+            } else {
+            $summaryRoutedValueYW = 0
+        }
+
+        # Yard Waste Additional Container
+        $summaryRoutedStringSearchYWAdd = Select-String -Path $summaryRoutedFile -Pattern "Additional\s+YW\s+Container\s+Rental\s+Rate" -Context 0,2
+        $summaryRoutedStringSearchYWAdd = $summaryRoutedStringSearchYWAdd -split "</td>" | Where { $_ -notmatch "Rate" }
+        $summaryRoutedStringSearchYWAdd = $summaryRoutedStringSearchYWAdd -split ">" | Where { $_ -notmatch "class" }
+        if ($summaryRoutedStringSearchYWAdd -Match "table") {
+            $summaryRoutedValueYWAdd = 1
+            } else {
+            $summaryRoutedValueYWAdd = 0
+        }
+
+
+
+        $summaryRoutedValue = $summaryRoutedValueSW + $summaryRoutedValueSWAdd + $summaryRoutedValueREC + $summaryRoutedValueRECAdd + $summaryRoutedValueYW + $summaryRoutedValueYWAdd
+    
+    $trackerObject = New-Object PSObject
+    $documentPath = $projectTemp + $_.Name
+
+    $trackerObject | Add-Member -MemberType NoteProperty -Name "Name" -Value $_.Name
+    $trackerObject | Add-Member -MemberType NoteProperty -Name "LawsonDiv" -Value $_.LawsonDiv
+    $trackerObject | Add-Member -MemberType NoteProperty -Name "DivisionNo" -Value $_.DivisionNo
+    $trackerObject | Add-Member -MemberType NoteProperty -Name "PolygonID" -Value $_.PolygonID
+    $trackerObject | Add-Member -MemberType NoteProperty -Name "Rate ID" -Value $_."Rate ID"
+    $trackerObject | Add-Member -MemberType NoteProperty -Name "Area" -Value $_.Area
+    $tempFileExist = $projectTemp + $_.Name
+    $fileExistTest = Test-Path $tempFileExist
+    if ($fileExistTest) {
+        $trackerObject | Add-Member -MemberType NoteProperty -Name "In Compass" -Value "Yes"
+        } else {
+        $trackerObject | Add-Member -MemberType NoteProperty -Name "In Compass" -Value "No"
+    }
+    if ($summaryRoutedValue -eq 0) {
+        $trackerObject | Add-Member -MemberType NoteProperty -Name "Form Completed" -Value $today
+        $trackerObject | Add-Member -MemberType NoteProperty -Name "Notes" -Value "Summary Routed Account"
+        Move-Item $documentPath $summaryRoutedAudit -Force
+        
+        # Count of Lines Needed
+        $billingDoc = $projectTemp + $_.Name
+        $invoiceGroupPrep = Select-String -Path 
+
+
+        } else {
+        $trackerObject | Add-Member -MemberType NoteProperty -Name "Form Completed" -Value $null
+        $trackerObject | Add-Member -MemberType NoteProperty -Name "Notes" -Value $null
+    }
+    $trackerExport += $trackerObject
+}
+$trackerExport | Export-Csv -Path $trackerExportRefined -NoTypeInformation
+
+<#
+Area
+Link
+In Compass
+Form Completed
+Notes
+#>
 
 # Test the export, this is NOT the final product, that needs to be divided out by DIV
 $trackerTest = $projectHome + "tracker-test.csv"
