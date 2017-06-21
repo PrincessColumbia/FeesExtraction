@@ -1,93 +1,57 @@
-Name,LawsonDiv,DivisionNo,PolygonID,Rate ID,Area,Link,In Compass,Form Completed,Notes
-DIV_092_270_MUNI_Cement_City_MI.html,4091,092,1000133,4091-092-1000133,A10-Great Lakes,DIV_092_270_MUNI_Cement_City_MI.html,Yes,,
-DIV_092_FRAN_Edgerton_OH.html,4091,092,1000158,4091-092-1000158,A10-Great Lakes,DIV_092_FRAN_Edgerton_OH.html,Yes,,
-DIV_092_HOA_Buena_Vista_Bryan_OH.html,4091,092,1197530,4091-092-1197530,A10-Great Lakes,DIV_092_HOA_Buena_Vista_Bryan_OH.html,Yes,,
-DIV_092_HOA_Christy_Meadows_Defiance_OH.html,4091,092,1185446,4091-092-1185446,A10-Great Lakes,DIV_092_HOA_Christy_Meadows_Defiance_OH.html,Yes,,
-DIV_092_HOA_Country_Club_Commons_Angola_IN.html,4091,092,1119878,4091-092-1119878,A10-Great Lakes,DIV_092_HOA_Country_Club_Commons_Angola_IN.html,Yes,,
-DIV_092_HOA_Crooked_Lake_Angola_IN.html,4091,092,1185450,4091-092-1185450,A10-Great Lakes,DIV_092_HOA_Crooked_Lake_Angola_IN.html,Yes,,
-DIV_092_HOA_Durham_Estates_Bryan_OH.html,4091,092,1134420,4091-092-1134420,A10-Great Lakes,DIV_092_HOA_Durham_Estates_Bryan_OH.html,Yes,,
-DIV_092_HOA_Forest_Park_Delta_OH.html,4091,092,1193768,4091-092-1193768,A10-Great Lakes,DIV_092_HOA_Forest_Park_Delta_OH.html,Yes,,
-DIV_092_HOA_Lake_Diane_Camden_MI.html,4091,092,1185447,4091-092-1185447,A10-Great Lakes,DIV_092_HOA_Lake_Diane_Camden_MI.html,Yes,,
-DIV_092_HOA_Lake_George_Fremont_IN.html,4091,092,1185449,4091-092-1185449,A10-Great Lakes,DIV_092_HOA_Lake_George_Fremont_IN.html,Yes,,
-DIV_092_HOA_Lake_James_SUB_Angola_IN.html,4091,092,1134446,4091-092-1134446,A10-Great Lakes,DIV_092_HOA_Lake_James_SUB_Angola_IN.html,Yes,,
-DIV_092_HOA_Lake_Seneca_Montpelier_OH.html,4091,092,1134447,4091-092-1134447,A10-Great Lakes,DIV_092_HOA_Lake_Seneca_Montpelier_OH.html,Yes,,
-DIV_092_HOA_Leisure_Lake_Angola_IN.html,4091,092,1193774,4091-092-1193774,A10-Great Lakes,DIV_092_HOA_Leisure_Lake_Angola_IN.html,Yes,,
-DIV_092_HOA_Merry_Lake_Camden_MI.html,4091,092,1134444,4091-092-1134444,A10-Great Lakes,DIV_092_HOA_Merry_Lake_Camden_MI.html,Yes,,
-DIV_092_HOA_Mobile_ Rama_Fremont_IN.html,4091,092,1536685,4091-092-1536685,A10-Great Lakes,DIV_092_HOA_Mobile_ Rama_Fremont_IN.html,Yes,,
-DIV_092_HOA_Norlick_Place_Bryan_OH.html,4091,092,1179415,4091-092-1179415,A10-Great Lakes,DIV_092_HOA_Norlick_Place_Bryan_OH.html,Yes,,
-Div_092_HOA_Orchard_Hills_Bryan_OH.html,4091,092,1579762,4091-092-1579762,A10-Great Lakes,Div_092_HOA_Orchard_Hills_Bryan_OH.html,Yes,,
-DIV_092_HOA_Sheehan_Sunset_Valley_Hamilton_IN.html,4091,092,1193770,4091-092-1193770,A10-Great Lakes,DIV_092_HOA_Sheehan_Sunset_Valley_Hamilton_IN.html,Yes,,
-DIV_092_HOA_Snow_Lake_Fremont_IN.html,4091,092,1134445,4091-092-1134445,A10-Great Lakes,DIV_092_HOA_Snow_Lake_Fremont_IN.html,Yes,,
-DIV_092_HOA_South_Shores_Park_Butler_IN.html,4091,092,1227246,4091-092-1227246,A10-Great Lakes,DIV_092_HOA_South_Shores_Park_Butler_IN.html,Yes,,
-DIV_092_MHP_Stoney_Ridge_Butler_IN.html,4091,092,1193766,4091-092-1193766,A10-Great Lakes,DIV_092_MHP_Stoney_Ridge_Butler_IN.html,Yes,,
-DIV_092_MHP_Swanton_Meadows_Swanton_OH.html,4091,092,1193767,4091-092-1193767,A10-Great Lakes,DIV_092_MHP_Swanton_Meadows_Swanton_OH.html,Yes,,
-DIV_092_MUNI_Blakeslee_OH.html,4091,092,1004382,4091-092-1004382,A10-Great Lakes,DIV_092_MUNI_Blakeslee_OH.html,Yes,,
-DIV_092_MUNI_Clayton_MI.html,4091,092,1000134,4091-092-1000134,A10-Great Lakes,DIV_092_MUNI_Clayton_MI.html,Yes,,
-DIV_092_MUNI_Edon_OH.html,4091,092,1004385,4091-092-1004385,A10-Great Lakes,DIV_092_MUNI_Edon_OH.html,Yes,,
-DIV_092_MUNI_Fremont_IN.html,4091,092,1000590,4091-092-1000590,A10-Great Lakes,DIV_092_MUNI_Fremont_IN.html,Yes,,
-DIV_092_MUNI_Hamilton_IN.html,4091,092,1000598,4091-092-1000598,A10-Great Lakes,DIV_092_MUNI_Hamilton_IN.html,Yes,,
-DIV_092_MUNI_West_Unity_OH.html,4091,092,1004381,4091-092-1004381,A10-Great Lakes,DIV_092_MUNI_West_Unity_OH.html,Yes,,
-DIV_092_OM_Residential_Service_Area_OH_MI.html,4091,092,409109203,4091-092-409109203,A10-Great Lakes,DIV_092_OM_Residential_Service_Area_OH_MI.html,Yes,,
-DIV_092_Open Market_Service_Area.html,4091,092,,4091-092-,A10-Great Lakes,DIV_092_Open Market_Service_Area.html,Yes,,
-DIV_270_HOA_Adrian_Estates_Adrian_MI.html,4270,270,1188049,4270-270-1188049,A10-Great Lakes,DIV_270_HOA_Adrian_Estates_Adrian_MI.html,Yes,,
-DIV_270_HOA_Austin_Commons_Saline_MI.html,4270,270,1188078,4270-270-1188078,A10-Great Lakes,DIV_270_HOA_Austin_Commons_Saline_MI.html,Yes,,
-DIV_270_HOA_Bean_Creek_Resort_Manitou_Beach_MI.html,4270,270,1188139,4270-270-1188139,A10-Great Lakes,DIV_270_HOA_Bean_Creek_Resort_Manitou_Beach_MI.html,Yes,,
-DIV_270_HOA_Coachlight_Estates_Blissfield_MI.html,4270,270,1188143,4270-270-1188143,A10-Great Lakes,DIV_270_HOA_Coachlight_Estates_Blissfield_MI.html,Yes,,
-DIV_270_HOA_Deep_Lake_Rec_Park_Brooklyn_MI.html,4270,270,1188141,4270-270-1188141,A10-Great Lakes,DIV_270_HOA_Deep_Lake_Rec_Park_Brooklyn_MI.html,Yes,,
-DIV_270_HOA_Friendly_Village_Adrian_MI.html,4270,270,1188026,4270-270-1188026,A10-Great Lakes,DIV_270_HOA_Friendly_Village_Adrian_MI.html,Yes,,
-DIV_270_HOA_Hidden_River_North_Adrian_MI.html,4270,270,1188021,4270-270-1188021,A10-Great Lakes,DIV_270_HOA_Hidden_River_North_Adrian_MI.html,Yes,,
-DIV_270_HOA_Hidden_River_South_Adrian_MI.html,4270,270,1188031,4270-270-1188031,A10-Great Lakes,DIV_270_HOA_Hidden_River_South_Adrian_MI.html,Yes,,
-DIV_270_HOA_Kings_Adrian_MI.html,4270,270,1188046,4270-270-1188046,A10-Great Lakes,DIV_270_HOA_Kings_Adrian_MI.html,Yes,,
-DIV_270_HOA_Lee_Villa_Estates_Adrian_MI.html,4270,270,1188065,4270-270-1188065,A10-Great Lakes,DIV_270_HOA_Lee_Villa_Estates_Adrian_MI.html,Yes,,
-DIV_270_HOA_Maple_Woods_Adrian_MI.html,4270,270,1188017,4270-270-1188017,A10-Great Lakes,DIV_270_HOA_Maple_Woods_Adrian_MI.html,Yes,,
-DIV_270_HOA_River_Ridge_Saline_MI.html,4270,270,1188072,4270-270-1188072,A10-Great Lakes,DIV_270_HOA_River_Ridge_Saline_MI.html,Yes,,
-DIV_270_HOA_Sterling_Estates_Adrian_MI.html,4270,270,1188037,4270-270-1188037,A10-Great Lakes,DIV_270_HOA_Sterling_Estates_Adrian_MI.html,Yes,,
-DIV_270_HOA_Thornton_Farms_Dexter_MI.html,4270,270,1108605,4270-270-1108605,A10-Great Lakes,DIV_270_HOA_Thornton_Farms_Dexter_MI.html,Yes,,
-DIV_270_MUNI_Carlton_MI.html,4270,270,1003310,4270-270-1003310,A10-Great Lakes,DIV_270_MUNI_Carlton_MI.html,Yes,,
-DIV_270_MUNI_Clinton_MI.html,4270,270,1002971,4270-270-1002971,A10-Great Lakes,DIV_270_MUNI_Clinton_MI.html,Yes,,
-DIV_270_MUNI_Onsted_MI.html,4270,270,1000150,4270-270-1000150,A10-Great Lakes,DIV_270_MUNI_Onsted_MI.html,Yes,,
-DIV_270_MUNI_Tecumseh_MI.html,4270,270,1000693,4270-270-1000693,A10-Great Lakes,DIV_270_MUNI_Tecumseh_MI.html,Yes,,
-DIV_270_OM_Residential_Service_Area.html,4270,270,,4270-270-,A10-Great Lakes,DIV_270_OM_Residential_Service_Area.html,Yes,,
-DIV_270_Village_of_Estral_Beach_Newport_MI.html,4270,270,1471051,4270-270-1471051,A10-Great Lakes,DIV_270_Village_of_Estral_Beach_Newport_MI.html,Yes,,
-DIV_384_HOA_Aaron_Woods_Wheeling_WV.html,4384,384,1017144,4384-384-1017144,A10-Great Lakes,DIV_384_HOA_Aaron_Woods_Wheeling_WV.html,Yes,,
-DIV_384_HOA_Glenn_View_TH_Wheeling_WV.html,4384,384,1130029,4384-384-1130029,A10-Great Lakes,DIV_384_HOA_Glenn_View_TH_Wheeling_WV.html,Yes,,
-DIV_384_HOA_Presidential_Estates_MHP_Bridgeport_OH.html,4384,384,1017142,4384-384-1017142,A10-Great Lakes,DIV_384_HOA_Presidential_Estates_MHP_Bridgeport_OH.html,Yes,,
-DIV_384_HOA_T_and_M_MHP_Moundsville_WV.html,4384,384,1017143,4384-384-1017143,A10-Great Lakes,DIV_384_HOA_T_and_M_MHP_Moundsville_WV.html,Yes,,
-DIV_384_MUNI_Brookside_Bridgeport_OH.html,4384,384,1002964,4384-384-1002964,A10-Great Lakes,DIV_384_MUNI_Brookside_Bridgeport_OH.html,Yes,,
-DIV_384_OM_Residential_Service_Area.html,4384,384,438438403,4384-384-438438403,A10-Great Lakes,DIV_384_OM_Residential_Service_Area.html,Yes,,
-DIV_388_HOA_Country_Creek_Findlay_OH.html,4388,388,1055140,4388-388-1055140,A10-Great Lakes,DIV_388_HOA_Country_Creek_Findlay_OH.html,Yes,,
-DIV_388_HOA_Country_Estates_MHP_Lima_OH.html,4388,388,1014861,4388-388-1014861,A10-Great Lakes,DIV_388_HOA_Country_Estates_MHP_Lima_OH.html,Yes,,
-DIV_388_HOA_Crestwood_MHP_Lima_OH.html,4388,388,1014862,4388-388-1014862,A10-Great Lakes,DIV_388_HOA_Crestwood_MHP_Lima_OH.html,Yes,,
-DIV_388_HOA_Friedman_Village_Tiffin_OH.html,4388,388,1014866,4388-388-1014866,A10-Great Lakes,DIV_388_HOA_Friedman_Village_Tiffin_OH.html,Yes,,
-DIV_388_HOA_Grand_Lake_Estates_MHP_Park_Celina_OH.html,4388,388,1055087,4388-388-1055087,A10-Great Lakes,DIV_388_HOA_Grand_Lake_Estates_MHP_Park_Celina_OH.html,Yes,,
-DIV_388_HOA_Grand_Manor_MHP_Celina_OH.html,4388,388,1014855,4388-388-1014855,A10-Great Lakes,DIV_388_HOA_Grand_Manor_MHP_Celina_OH.html,Yes,,
-DIV_388_HOA_Hedgegate_CONDOS_Tiffin_OH.html,4388,388,1014859,4388-388-1014859,A10-Great Lakes,DIV_388_HOA_Hedgegate_CONDOS_Tiffin_OH.html,Yes,,
-DIV_388_HOA_Highland_Estates_Findlay_OH.html,4388,388,1014865,4388-388-1014865,A10-Great Lakes,DIV_388_HOA_Highland_Estates_Findlay_OH.html,Yes,,
-DIV_388_HOA_Highland_Park_Estates_Tiffin_OH.html,4388,388,1014864,4388-388-1014864,A10-Great Lakes,DIV_388_HOA_Highland_Park_Estates_Tiffin_OH.html,Yes,,
-DIV_388_HOA_Hunters_Crossing_Findlay_OH.html,4388,388,1014857,4388-388-1014857,A10-Great Lakes,DIV_388_HOA_Hunters_Crossing_Findlay_OH.html,Yes,,
-DIV_388_HOA_Hunters_Edge_Findlay_OH.html,4388,388,1014858,4388-388-1014858,A10-Great Lakes,DIV_388_HOA_Hunters_Edge_Findlay_OH.html,Yes,,
-DIV_388_HOA_Lake_Mohawk_Association_Tiffin_OH.html,4388,388,1014856,4388-388-1017083,A10-Great Lakes,DIV_388_HOA_Lake_Mohawk_Association_Tiffin_OH.html,Yes,,
-DIV_388_HOA_Lakeview_Villas_Findlay_OH.html,4388,388,1017083,4388-388-1017083,A10-Great Lakes,DIV_388_HOA_Lakeview_Villas_Findlay_OH.html,Yes,,
-DIV_388_MUNI_Ada_OH.html,4388,388,1003585,4388-388-1003585,A10-Great Lakes,DIV_388_MUNI_Ada_OH.html,Yes,,
-DIV_388_MUNI_Bluffton_OH.html,4388,388,1001992,4388-388-1001992,A10-Great Lakes,DIV_388_MUNI_Bluffton_OH.html,Yes,,
-DIV_388_MUNI_Ottawa_OH.html,4388,388,1000161,4388-388-1000161,A10-Great Lakes,DIV_388_MUNI_Ottawa_OH.html,Yes,,
-DIV_388_MUNI_Tiffin_OH.html,4388,388,1002963,4388-388-1002963,A10-Great Lakes,DIV_388_MUNI_Tiffin_OH.html,Yes,,
-DIV_388_OM_Marion_Township_Mercer_County_OH.html,4388,388,1578384,4388-388-1578384,A10-Great Lakes,DIV_388_OM_Marion_Township_Mercer_County_OH.html,Yes,,
-DIV_388_OM_Outside_City_Limits_of Ada_Bloomville_Multi_Cities_Ohio.html,4388,388,1578385,4388-388-1578385,A10-Great Lakes,DIV_388_OM_Outside_City_Limits_of Ada_Bloomville_Multi_Cities_Ohio.html,Yes,,
-DIV_388_OM_Outside_City_Limits_Of_Lima_Allen_County_OH.html,4388,388,1578382,4388-388-1578382,A10-Great Lakes,DIV_388_OM_Outside_City_Limits_Of_Lima_Allen_County_OH.html,Yes,,
-DIV_388_OM_Outside_City_Limits_Of_Tiffin_OH.html,4388,388,1578383,4388-388-1578383,A10-Great Lakes,DIV_388_OM_Outside_City_Limits_Of_Tiffin_OH.html,Yes,,
-DIV_058_MUNI_Lueders_TX.html,3439,691,1355991,3439-691-1355991,A06-South,DIV_058_MUNI_Lueders_TX.html,Yes,,
-DIV_691_FRAN_San_Angelo_TX.html,3439,691,1001011,3439-691-1001011,A06-South,DIV_691_FRAN_San_Angelo_TX.html,Yes,,
-DIV_691_MUNI_Ballinger_TX.html,3439,691,1001087,3439-691-1001087,A06-South,DIV_691_MUNI_Ballinger_TX.html,Yes,,
-DIV_691_MUNI_Bronte_TX.html,3439,691,1001048,3439-691-1001048,A06-South,DIV_691_MUNI_Bronte_TX.html,Yes,,
-DIV_691_MUNI_Crockett_Co_Water_District_1_Ozona_TX.html,3439,691,1363498,3439-691-1363498,A06-South,DIV_691_MUNI_Crockett_Co_Water_District_1_Ozona_TX.html,Yes,,
-DIV_691_MUNI_Eden_TX.html,3439,691,1001017,3439-691-1001017,A06-South,DIV_691_MUNI_Eden_TX.html,Yes,,
-DIV_691_MUNI_Junction_TX.html,3439,691,1001053,3439-691-1001053,A06-South,DIV_691_MUNI_Junction_TX.html,Yes,,
-DIV_691_MUNI_Melvin_TX.html,3439,691,1577845,3439-691-1577845,A06-South,DIV_691_MUNI_Melvin_TX.html,Yes,,
-DIV_691_MUNI_Menard_TX.html,3439,691,1001151,3439-691-1001151,A06-South,DIV_691_MUNI_Menard_TX.html,Yes,,
-DIV_691_MUNI_Miles_TX.html,3439,691,1001040,3439-691-1001040,A06-South,DIV_691_MUNI_Miles_TX.html,Yes,,
-DIV_691_MUNI_Robert_Lee_TX.html,3439,691,1001127,3439-691-1001127,A06-South,DIV_691_MUNI_Robert_Lee_TX.html,Yes,,
-DIV_691_MUNI_Sonora_TX.html,3439,691,1001159,3439-691-1001159,A06-South,DIV_691_MUNI_Sonora_TX.html,Yes,,
-DIV_691_OM_Zone_I.html,3439,691,,3439-691-,A06-South,DIV_691_OM_Zone_I.html,Yes,,
-DIV_691_OM_Zone_II.html,3439,691,,3439-691-,A06-South,DIV_691_OM_Zone_II.html,Yes,,
-DIV_691_OM_Zone_III.html,3439,691,,3439-691-,A06-South,DIV_691_OM_Zone_III.html,Yes,,
+Name,LawsonDiv,DivisionNo,PolygonID,Rate ID,Area
+DIV_092_HOA_Buena_Vista_Bryan_OH.html,4091,092,1197530,4091-092-1197530,A10-Great Lakes
+DIV_092_HOA_Christy_Meadows_Defiance_OH.html,4091,092,1185446,4091-092-1185446,A10-Great Lakes
+DIV_092_HOA_Crooked_Lake_Angola_IN.html,4091,092,1185450,4091-092-1185450,A10-Great Lakes
+DIV_092_HOA_Durham_Estates_Bryan_OH.html,4091,092,1134420,4091-092-1134420,A10-Great Lakes
+DIV_092_HOA_Lake_Diane_Camden_MI.html,4091,092,1185447,4091-092-1185447,A10-Great Lakes
+DIV_092_HOA_Lake_George_Fremont_IN.html,4091,092,1185449,4091-092-1185449,A10-Great Lakes
+DIV_092_HOA_Lake_Seneca_Montpelier_OH.html,4091,092,1134447,4091-092-1134447,A10-Great Lakes
+DIV_092_HOA_Merry_Lake_Camden_MI.html,4091,092,1134444,4091-092-1134444,A10-Great Lakes
+DIV_092_HOA_Mobile_ Rama_Fremont_IN.html,4091,092,1536685,4091-092-1536685,A10-Great Lakes
+DIV_092_HOA_Norlick_Place_Bryan_OH.html,4091,092,1179415,4091-092-1179415,A10-Great Lakes
+Div_092_HOA_Orchard_Hills_Bryan_OH.html,4091,092,1579762,4091-092-1579762,A10-Great Lakes
+DIV_092_HOA_Snow_Lake_Fremont_IN.html,4091,092,1134445,4091-092-1134445,A10-Great Lakes
+DIV_092_MHP_Stoney_Ridge_Butler_IN.html,4091,092,1193766,4091-092-1193766,A10-Great Lakes
+DIV_092_MUNI_Fremont_IN.html,4091,092,1000590,4091-092-1000590,A10-Great Lakes
+DIV_092_MUNI_West_Unity_OH.html,4091,092,1004381,4091-092-1004381,A10-Great Lakes
+DIV_092_OM_Residential_Service_Area_OH_MI.html,4091,092,409109203,4091-092-409109203,A10-Great Lakes
+DIV_384_HOA_Aaron_Woods_Wheeling_WV.html,4384,384,1017144,4384-384-1017144,A10-Great Lakes
+DIV_384_MUNI_Brookside_Bridgeport_OH.html,4384,384,1002964,4384-384-1002964,A10-Great Lakes
+DIV_384_OM_Residential_Service_Area.html,4384,384,438438403,4384-384-438438403,A10-Great Lakes
+DIV_388_HOA_Grand_Manor_MHP_Celina_OH.html,4388,388,1014855,4388-388-1014855,A10-Great Lakes
+DIV_388_MUNI_Ottawa_OH.html,4388,388,1000161,4388-388-1000161,A10-Great Lakes
+DIV_388_MUNI_Tiffin_OH.html,4388,388,1002963,4388-388-1002963,A10-Great Lakes
+DIV_388_OM_Marion_Township_Mercer_County_OH.html,4388,388,1578384,4388-388-1578384,A10-Great Lakes
+DIV_388_OM_Outside_City_Limits_of Ada_Bloomville_Multi_Cities_Ohio.html,4388,388,1578385,4388-388-1578385,A10-Great Lakes
+DIV_388_OM_Outside_City_Limits_Of_Lima_Allen_County_OH.html,4388,388,1578382,4388-388-1578382,A10-Great Lakes
+DIV_388_OM_Outside_City_Limits_Of_Tiffin_OH.html,4388,388,1578383,4388-388-1578383,A10-Great Lakes
+DIV_782_FRAN_Sumter_County_SC.html,4782,782,1001738,4782-782-1001738,A08-Mid_Atlantic
+DIV_782_MHP_Forest_Lake_Florence_SC.html,4782,782,1008603,4782-782-1008603,A08-Mid_Atlantic
+DIV_803_HOA_Early_Street_Village_Alexandria_VA.html,3803,803,1007834,3803-803-1007834,A08-Mid_Atlantic
+DIV_803_HOA_Edgemoore_Vienna_VA.html,3803,803,1008195,3803-803-1008195,A08-Mid_Atlantic
+DIV_803_HOA_Edgewater_Land_Bay_Four_Burke_VA.html,3803,803,1007835,3803-803-1007835,A08-Mid_Atlantic
+DIV_803_HOA_Edgewater_Land_Bay_II_Burke_VA.html,3803,803,1007836,3803-803-1007836,A08-Mid_Atlantic
+DIV_803_HOA_Emerald_Chase_Herndon_VA.html,3803,803,1007837,3803-803-1007837,A08-Mid_Atlantic
+DIV_803_HOA_Engleside_Cooperative_Arlington_VA.html,3803,803,1010032,3803-803-1010032,A08-Mid_Atlantic
+DIV_803_HOA_Englewood_Mews_Centreville_VA.html,3803,803,1007839,3803-803-1007839,A08-Mid_Atlantic
+DIV_803_HOA_Estates_at_Breyerton_Gainesville_VA.html,3803,803,1007840,3803-803-1007840,A08-Mid_Atlantic
+DIV_803_HOA_Estates_at_Cedar_Crest_Chantilly_VA.html,3803,803,1007841,3803-803-1007841,A08-Mid_Atlantic
+DIV_803_HOA_Estates_at_Roseland_Fairfax_VA.html,3803,803,1007842,3803-803-1007842,A08-Mid_Atlantic
+DIV_803_HOA_Eton_Parc_Alexandria_VA.html,3803,803,1007843,3803-803-1007843,A08-Mid_Atlantic
+DIV_803_HOA_Evans_Mill_Pond_Mclean_VA.html,3803,803,1007844,3803-803-1007844,A08-Mid_Atlantic
+DIV_803_HOA_Evergreen_Hamlets_Ashburn_VA.html,3803,803,1007845,3803-803-1007845,A08-Mid_Atlantic
+DIV_803_HOA_Evergreen_Heights_Annandale_VA.html,3803,803,1007846,3803-803-1007846,A08-Mid_Atlantic
+DIV_803_HOA_Evergreen_Square_Oakton_VA.html,3803,803,1007847,3803-803-1007847,A08-Mid_Atlantic
+DIV_803_HOA_Fair_Lakes_Condos_Fairfax_VA.html,3803,803,1578812,3803-803-1578812,A08-Mid_Atlantic
+DIV_803_HOA_Fair_Lakes_Cove_Fairfax_VA.html,3803,803,1007848,3803-803-1007848,A08-Mid_Atlantic
+DIV_803_HOA_Fair_Lakes_Glen_Fairfax_VA.html,3803,803,1007849,3803-803-1007849,A08-Mid_Atlantic
+DIV_803_HOA_Fair_Oaks_Glen_Fairfax_VA.html,3803,803,1007850,3803-803-1007850,A08-Mid_Atlantic
+DIV_803_HOA_Fair_Oaks_Hill_Fairfax_VA.html,3803,803,1007851,3803-803-1007851,A08-Mid_Atlantic
+DIV_803_HOA_Fair_Oaks_Hunt_Fairfax_VA.html,3803,803,1007852,3803-803-1007852,A08-Mid_Atlantic
+DIV_803_HOA_Fair_Oaks_Landing_Fairfax_VA.html,3803,803,1007853,3803-803-1007853,A08-Mid_Atlantic
+DIV_803_HOA_Fair_Ridge_Fairfax_VA.html,3803,803,1007854,3803-803-1007854,A08-Mid_Atlantic
+DIV_803_HOA_Fair_Winds_Oakton_VA.html,3803,803,1007855,3803-803-1007855,A08-Mid_Atlantic
+DIV_803_HOA_Faircrest_Centreville_VA.html,3803,803,1007857,3803-803-1007857,A08-Mid_Atlantic
+DIV_866_MUNI_Hampton_SC.html,3105,866,1001484,3105-866-1001484,A08-Mid_Atlantic
+DIV_866_MUNI_Yemassee_SC.html,3105,866,1000354,3105-866-1000354,A08-Mid_Atlantic
+DIV_866_OM_Beaufort_County_and_Lady_Island_SC.html,3105,866,310586603,3105-866-310586603,A08-Mid_Atlantic

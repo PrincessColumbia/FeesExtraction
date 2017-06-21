@@ -1,0 +1,229 @@
+Company Number,Comp Use Susp Fee,Charge Susp Fee Flag,Susp Fee Charge Amt,Description1,Description2
+  015,Y,Y,35.00,MIDWEST,Hawkeye Disposal
+  026,Y,Y,35.00,GREAT LAKES,AWS of Salem - Ohio
+  029,Y,Y,35.00,MID-ATLANTIC,AWS of Fredericksburg
+  035,Y,Y,35.00,HEARTLAND,Jefferson City
+  046,Y,Y,35.00,GREAT LAKES,Columbus
+  050,Y,Y,35.00,MID-ATLANTIC,AWS of Baltimore
+  053,Y,Y,35.00,HEARTLAND,BFI Waste Services of Tulsa
+  058,Y,Y,35.00,SOUTH,AWS of Abilene
+  060,Y,Y,35.00,HEARTLAND,Oklahoma City
+  066,Y,Y,35.00,SOUTH,AWS of Amarillo
+  068,Y,Y,35.00,SOUTH,AWS of Lubbock
+  069,Y,Y,35.00,SOUTH,Corsicana Hauling
+  070,Y,Y,35.00,SOUTH,Kilgore
+  091,Y,Y,35.00,GREAT LAKES,Serv-All / CRS
+  092,Y,Y,35.00,GREAT LAKES,AWS - Bryan
+  094,Y,Y,35.00,NORTHEAST,"Revere, MA"
+  095,Y,Y,35.00,NORTHEAST,AWS of Tyngsboro
+  096,Y,Y,35.00,NORTHEAST,AWS of Cape Cod
+  097,Y,Y,35.00,NORTHEAST,AWS of Fall River
+  111,Y,Y,35.00,NORTHEAST,AWS of Buffalo
+  172,N,N,10.00,NORTHWEST,Eastside Disposal
+  175,Y,Y,35.00,NORTHWEST,U.S. Disposal
+  176,Y,N,16.84,NORTHWEST,Kent Meridian Disposal
+  183,N,N,10.00,NORTHWEST,Sea Tac Disposal
+  197,N,N,10.00,NORTHWEST,Lynnwood Disposal
+  205,N,N,10.00,WEST,Sunrise Sanitation
+  206,N,N,10.00,WEST,Sunset Disposal
+  207,N,N,10.00,WEST,Lathrop Sunrise
+  208,Y,Y,35.00,WEST,Delta Container
+  210,Y,Y,35.00,WEST,AWS of Contra Costa County
+  224,Y,Y,35.00,GREAT LAKES,BFI-Elyria
+  233,Y,Y,35.00,NORTHWEST,St. George Division
+  237,Y,Y,35.00,GREAT LAKES,Flint
+  239,Y,Y,35.00,GREAT LAKES,Harlands Waste
+  240,Y,Y,35.00,GREAT LAKES,Grand Rapids
+  241,Y,Y,35.00,GREAT LAKES,Metro
+  249,Y,Y,35.00,GREAT LAKES,Kalamazoo
+  253,Y,Y,35.00,GREAT LAKES,Pontiac
+  259,Y,Y,35.00,GREAT LAKES,BFI of Toledo
+  260,Y,Y,35.00,HEARTLAND,Dayton
+  261,Y,Y,10.00,GREAT LAKES,Ford Total Waste
+  262,Y,Y,35.00,GREAT LAKES,AWS of Youngstown
+  263,Y,Y,35.00,GREAT LAKES,BFI Waste Services of Sandusky
+  264,Y,Y,35.00,GREAT LAKES,Allied Waste - Pittsburg
+  270,Y,Y,35.00,GREAT LAKES,Adrian
+  271,Y,Y,35.00,MIDWEST,"Elkhart, IN"
+  282,Y,Y,20.00,NORTHEAST,Raritan - Lehigh Valley
+  318,Y,Y,35.00,NORTHEAST,AWS of Schuylkill Valley
+  319,Y,Y,35.00,NORTHEAST,AWS of Brandywine
+  320,Y,Y,20.00,NORTHEAST,AWS of Bucks-Mont
+  321,Y,Y,35.00,NORTHEAST,AWS of Delaware
+  323,Y,Y,35.00,NORTHEAST,AWS of Philadelphia
+  324,Y,Y,35.00,NORTHEAST,AWS of Valley Forge
+  346,Y,Y,35.00,HEARTLAND,St. Louis
+  347,N,N,.00,HEARTLAND,St Louis Portable Services
+  350,Y,Y,35.00,HEARTLAND,Edwardsville
+  352,Y,Y,35.00,HEARTLAND,Capitol Waste
+  366,Y,Y,35.00,MIDWEST,ADS Environtech
+  368,Y,Y,35.00,HEARTLAND,Bloomington
+  375,Y,Y,35.00,HEARTLAND,Arrowhead Waste
+  376,Y,Y,35.00,HEARTLAND,Sunset Disposal
+  384,N,N,10.00,GREAT LAKES,Rohrig Sanitation
+  388,Y,Y,35.00,GREAT LAKES,ADS of Ohio
+  393,Y,Y,35.00,HEARTLAND,ADS Galena
+  394,Y,Y,35.00,HEARTLAND,ADS Ozarks
+  400,Y,Y,35.00,MIDWEST,Rock Island
+  401,Y,Y,35.00,HEARTLAND,Bella Vista
+  410,Y,Y,35.00,MID-ATLANTIC,BFI of Charlottesville
+  411,Y,Y,35.00,MID-ATLANTIC,AWS Washington Metro
+  425,Y,Y,35.00,NORTHEAST,AWS of the Eastern Shore
+  426,Y,Y,35.00,NORTHEAST,AWS of Delmar
+  427,Y,Y,35.00,MID-ATLANTIC,AWS of Hagerstown
+  428,Y,Y,35.00,MID-ATLANTIC,AWS of Frederick
+  435,Y,Y,35.00,HEARTLAND,Modern Sanitation
+  450,Y,Y,30.00,NORTHWEST,Albany / Lebanon Sanitation
+  451,Y,Y,25.00,NORTHWEST,Capitol Recycling & Disposal
+  452,Y,Y,30.00,NORTHWEST,Corvallis Disposal
+  454,Y,Y,25.00,NORTHWEST,Grants Pass Sanitation
+  455,Y,Y,25.00,NORTHWEST,"Keller Drop Box, Inc"
+  456,Y,Y,25.00,NORTHWEST,United Disposal Services
+  463,Y,Y,35.00,SOUTHEAST,AWS of Fort Walton Beach
+  466,Y,Y,35.00,SOUTHWEST,Suburban Sanitation
+  467,Y,Y,35.00,SOUTHWEST,Valley Environmental
+  468,Y,Y,35.00,HEARTLAND,BFI Kansas City
+  469,Y,Y,25.00,NORTHWEST,Rossman Sanitary
+  471,N,N,.00,WEST,AWS of Salinas
+  472,Y,Y,35.00,NORTHWEST,River City Disposal
+  473,Y,Y,35.00,SOUTH,AWS of Brenham
+  484,Y,Y,35.00,SOUTHEAST,AWS of Andalusia
+  487,N,N,10.00,NORTHWEST,Tri-County Disposal
+  493,Y,Y,35.00,NORTHWEST,Green Disposal
+  509,Y,Y,15.00,SOUTHWEST,Chula Vista
+  516,Y,Y,35.00,NORTHWEST,PSI Waste of Page
+  527,Y,Y,15.00,SOUTHWEST,Lake Havasu City
+  529,Y,Y,35.00,SOUTHWEST,San Diego
+  535,Y,Y,35.00,NORTHWEST,AWS of Denver
+  551,Y,Y,35.00,MIDWEST,West/NW Chicago Suburbs
+  603,Y,Y,35.00,MID-ATLANTIC,Greensboro / Winston-Salem
+  604,Y,Y,35.00,NORTHEAST,Marshfield Hauling
+  605,N,N,.00,SOUTHWEST,RAINBOW DISPOSAL CO
+  609,Y,N,35.00,MID-ATLANTIC,RS of North Carolina LLC.
+  611,Y,Y,35.00,NORTHEAST,York Waste
+  620,Y,Y,35.00,WEST,RS of S Nevada
+  628,N,N,.00,NORTHEAST,RSG of NJ - Mt Laurel
+  633,Y,Y,35.00,SOUTHEAST,AWS of Anniston
+  646,Y,Y,35.00,GREAT LAKES,Reliable - Stevensville
+  654,Y,Y,35.00,SOUTHEAST,Florida Refuse Service
+  662,Y,Y,35.00,SOUTHEAST,Reliable Sanitation
+  674,Y,Y,35.00,GREAT LAKES,AWS of Scottdale
+  676,N,N,.00,SOUTHWEST,RWS of Southern CA - Anaheim
+  684,Y,Y,35.00,GREAT LAKES,Wabash Valley
+  685,Y,Y,35.00,MID-ATLANTIC,GDS - Hickory
+  687,Y,Y,35.00,SOUTHEAST,Southland Waste Systems
+  688,Y,Y,35.00,SOUTH,Midland
+  689,N,N,.00,NORTHEAST,Midco Waste
+  690,Y,Y,35.00,SOUTHEAST,RS of Orlando
+  691,Y,Y,35.00,SOUTH,San Angelo
+  692,Y,Y,35.00,MID-ATLANTIC,"Charleston, SC"
+  693,Y,Y,35.00,MID-ATLANTIC,GDS Western NC
+  694,Y,Y,35.00,GREAT LAKES,RS of Western Indiana
+  695,Y,Y,35.00,SOUTHEAST,All Service Refuse
+  696,Y,Y,35.00,SOUTHEAST,Republic Services of Tampa
+  710,Y,Y,35.00,MIDWEST,National Waste
+  715,Y,Y,35.00,MIDWEST,Illiana Disposal & Recycling
+  717,Y,Y,35.00,MIDWEST,Key Waste
+  721,Y,Y,35.00,MIDWEST,Groen Waste
+  726,Y,Y,35.00,HEARTLAND,Duckett Disposal
+  728,Y,Y,35.00,MID-ATLANTIC,Sullivan Environmental
+  729,Y,Y,35.00,HEARTLAND,Central Waste Services
+  732,Y,Y,35.00,HEARTLAND,Lemons Waste Systems
+  742,Y,Y,35.00,MID-ATLANTIC,C.C.C. - Charlotte
+  743,Y,Y,35.00,MID-ATLANTIC,C.C.C. - Columbia
+  744,Y,Y,35.00,MID-ATLANTIC,C.C.C. - Greenville
+  753,Y,Y,35.00,SOUTHWEST,Paradise Waste
+  757,Y,Y,35.00,HEARTLAND,B & J Sanitation
+  758,Y,Y,35.00,HEARTLAND,Industrial Disposal
+  759,N,N,.00,SOUTHEAST,RS of Palm Beach
+  760,Y,Y,25.00,HEARTLAND,Barker Bros / CWD
+  761,Y,Y,35.00,GREAT LAKES,Republic Services of Indiana
+  762,N,N,.00,SOUTHEAST,Seaside Sanitation
+  769,N,N,.00,SOUTHEAST,Treasure Coast Refuse
+  778,Y,Y,35.00,MID-ATLANTIC,"Troy, NC"
+  782,Y,Y,35.00,MID-ATLANTIC,Lee County Hauling
+  785,Y,Y,20.00,SOUTHWEST,Tri-State Disposal
+  786,Y,Y,35.00,GREAT LAKES,Waste 1
+  787,Y,Y,35.00,NORTHWEST,Allied Waste Services
+  788,Y,Y,35.00,NORTHWEST,Allied Waste Services
+  789,Y,N,35.00,HEARTLAND,HEW Waste Systems
+  792,Y,Y,35.00,MIDWEST,AWS - Ottawa
+  794,Y,Y,35.00,SOUTH,DFW Metroplex
+  795,Y,Y,35.00,SOUTH,DUNCAN DISPOSAL - MALOY
+  796,Y,N,25.00,HEARTLAND,CWD Commercial Waste Mayfield
+  798,Y,Y,35.00,HEARTLAND,CSI Waste Services
+  800,Y,Y,35.00,SOUTHEAST,AWS of Atlanta
+  802,Y,Y,35.00,SOUTHEAST,AWS of Birmingham
+  803,Y,Y,35.00,MID-ATLANTIC,RS of VA - AAA Recycle & Trash
+  808,Y,Y,35.00,SOUTHEAST,AWS of Escambia County AL
+  810,Y,Y,35.00,SOUTHEAST,AWS of Ponce
+  812,Y,Y,35.00,SOUTHEAST,AWS of Puerto Rico - San Juan
+  820,Y,Y,35.00,SOUTHEAST,AWS of Baton Rouge
+  823,Y,Y,35.00,SOUTHEAST,AWS of Jackson
+  825,Y,Y,35.00,MID-ATLANTIC,AWS of Tri-Cities
+  832,Y,Y,35.00,SOUTHEAST,AWS of Lake Charles
+  833,Y,Y,35.00,SOUTHEAST,AWS of Acadiana
+  837,Y,Y,35.00,HEARTLAND,AWS of Memphis
+  840,Y,Y,35.00,SOUTHEAST,AWS of Nashville
+  841,Y,Y,35.00,SOUTHEAST,AWS of Murfreesboro
+  842,Y,Y,35.00,SOUTHEAST,AWS of New Orleans
+  843,Y,Y,35.00,SOUTH,AWS of Austin
+  845,Y,Y,35.00,SOUTHWEST,Saguaro Environmental Services
+  846,N,N,.00,WEST,Solano Garbage Company
+  847,Y,Y,35.00,SOUTH,AWS of Corpus Christi
+  851,Y,N,20.00,WEST,Richmond Sanitary Services
+  853,Y,Y,35.00,SOUTH,AWS of West Houston
+  855,Y,Y,35.00,ENERGY SERVICES,AWS of Houston Bay Area
+  858,Y,Y,35.00,HEARTLAND,AWS of Little Rock
+  859,Y,Y,35.00,SOUTH,AWS of San Antonio
+  862,Y,Y,35.00,SOUTH,AWS of Beaumont
+  863,Y,Y,35.00,SOUTH,AWS of Rio Grande Valley
+  864,Y,Y,35.00,NORTHWEST,AWS of Salt Lake City
+  865,N,N,.00,NORTHEAST,Raritan Valley Disposal
+  866,Y,Y,35.00,MID-ATLANTIC,RWS of Hilton Head
+  867,Y,Y,35.00,MID-ATLANTIC,RWS of Savannah
+  868,Y,Y,35.00,SOUTHEAST,AWS of Greenville-Leland
+  869,Y,Y,35.00,SOUTHEAST,AWS of Northern Mississippi
+  870,Y,Y,35.00,GREAT LAKES,Republic Services of Massillon
+  873,N,N,10.00,NORTHEAST,"Marpal Company, Inc."
+  884,Y,Y,35.00,NORTHWEST,Allied Waste Services
+  886,N,N,.00,NORTHWEST,AWS of Bozeman
+  889,N,N,.00,NORTHWEST,AWS of Missoula
+  891,N,N,10.00,MIDWEST,Allied Waste - Sauk Rapids
+  892,N,N,.00,NORTHWEST,AWS of Billings
+  893,N,N,10.00,WEST,"Daly City, CA"
+  894,N,N,10.00,MIDWEST,BFI Waste Service Eden Prairie
+  897,Y,Y,35.00,MIDWEST,BFI of Dubuque
+  899,N,N,10.00,MIDWEST,BFI Waste Services Blaine
+  902,Y,Y,35.00,SOUTHWEST,AWS of Gardena
+  915,Y,Y,42.40,WEST,AWS of Santa Clara County
+  916,Y,Y,16.52,WEST,AWS of Alameda County
+  917,Y,Y,35.00,WEST,AWS of Fresno
+  922,Y,Y,35.00,WEST,AWS of Sacramento
+  923,N,N,10.00,MIDWEST,BFI of Inver Grove Heights
+  924,Y,Y,35.00,HEARTLAND,BFI Evansville
+  925,Y,Y,35.00,WEST,AWS of San Mateo County
+  928,Y,Y,35.00,HEARTLAND,Quincy Hauling
+  930,Y,Y,35.00,MIDWEST,AWS of Wisconsin
+  939,Y,Y,35.00,MID-ATLANTIC,AWS of Raleigh
+  954,Y,Y,35.00,NORTHEAST,AWS of Auburn
+  955,Y,Y,35.00,NORTHEAST,AWS of Pittsfield
+  956,Y,Y,35.00,NORTHEAST,AWS of Springfield
+  957,Y,Y,35.00,MID-ATLANTIC,BFI Waste Service Williamsburg
+  959,Y,Y,35.00,SOUTHEAST,AWS of Pensacola
+  960,Y,Y,35.00,SOUTHEAST,AWS of Magnolia Springs
+  964,Y,Y,35.00,NORTHEAST,AWS of Albany
+  965,Y,Y,35.00,MID-ATLANTIC,BFI Waste Services Of Richmond
+  971,Y,Y,35.00,MID-ATLANTIC,"Huntington, WV"
+  972,Y,Y,50.00,GREAT LAKES,BFI Waste Services of Fairmont
+  973,Y,Y,35.00,MID-ATLANTIC,BFI of Roanoke Valley
+  974,Y,Y,35.00,MID-ATLANTIC,BFI Waste Services Lynchburg
+  975,Y,Y,35.00,SOUTHEAST,BFI Waste Services Shreveport
+  975,Y,Y,35.00,SOUTHEAST,BFI Waste Services Shreveport
+  976,Y,Y,35.00,MID-ATLANTIC,AWS of Winchester
+  979,Y,Y,35.00,SOUTHEAST,AWS of Huntsville
+  986,Y,Y,35.00,SOUTHEAST,AWS of Mobile
+  991,Y,Y,35.00,SOUTHEAST,AWS of Hattiesburg
+  993,Y,Y,35.00,HEARTLAND,AWS of Lexington
+  997,Y,Y,35.00,SOUTHEAST,AWS of Chattanooga
+  999,Y,Y,35.00,SOUTHEAST,AWS of Rome

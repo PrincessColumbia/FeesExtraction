@@ -1,0 +1,85 @@
+DIV,Lawson,City,State,County,Zip Code,County Tax Code,Tax Rate %,Resi Tax Code,IND Tax Code,TERR Code,Disposal Code,Residential,"Residential
+ Recycling",Yard Waste,Commercial,"Commercial
+ Recycling",Industrial,Industrial Recycling
+691,3439,Ballinger City,TX,Runnels County,76821,1000,8.25%,1000,1000,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Barnhart,TX,Iron County,76930,1019,6.25%,1019,1019,703,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Big Lake City,TX,Regan County,76932,1002,8.25%,1002,1002,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Bronte City,TX,Coke County,76933,1053,8.25%,1053,1053,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Brown County,TX,Brown County,76801,1005,6.25%,1005,1005,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Carlsbad,TX,Tom Green County,76943,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Christoval,TX,Tom Green County,76935,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Coke County,TX,Coke County,76945,1006,6.25%,1006,1006,708,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Coleman County,TX,Coleman County,76878,1007,6.25%,1007,1007,704,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Concho County,TX,Concho County,76837,1010,6.75%,1010,1010,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Crockett County,TX,Crockett County,76943,1011,6.25%,1011,1011,706,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Eden City,TX,Concho County,76837,1014,8.25%,1014,1014,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Goodfellow AFB,TX,Tom Green County,76908,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Iron County,TX,Iron County,76941,1019,6.25%,1019,1019,703,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Junction City,TX,Kimble County,76849,1020,8.25%,1020,1020,705,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Kimble County,TX,Kimble County,76849,1022,6.75%,1022,1022,705,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Knickerbocker,TX,Tom Green County,76939,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,"McCullouch County, TX",TX,McCullouch County,76825,1024,7.00%,1024,1024,705,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Melvin,TX,McCullouch County,76859,1058,8.00%,1058,1058,714,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Menard City,TX,Menard County,76859,1026,8.25%,1026,1026,709,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Menard County,TX,Menard County,76859,1025,6.75%,1025,1025,709,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Mereta,TX,Tom Green County,76940,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Mertzon City,TX,Irion County,76941,1027,7.25%,1027,1027,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Miles City,TX,Runnels County,76861,1028,8.25%,1028,1028,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Ozona City,TX,Crockett County,76943,1031,6.25%,1031,1031,706,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Paint Rock City,TX,Concho County,76866,1032,7.75%,1032,1032,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Reagan County,TX,Reagan County,76932,1057,6.75%,1057,1057,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Robert Lee City,TX,Coke County,76945,1036,8.25%,1036,1036,708,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Runnels County,TX,Runnels County,76861,1038,6.75%,1038,1038,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,"San Angelo with FF (Inside City limits, with 5% franchise fee)",TX,Tom Green,"76901, 76902, 76903, 76904, 76905",1039,8.25%,1039,1039,401,SA01,30,N/A,N/A,10,10,20,Not offered
+691,3439,San Angelo (Outside City limits),TX,Tom Green County,"76904, 76901, 76903, 76905",1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,San Saba County,TX,San Saba County,76877,1040,6.75%,1040,1040,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Schleicher County,TX,Schleicher County,76936,1041,7.25%,1041,1041,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Sonora City,TX,Sutton County,76950,1043,8.25%,1043,1043,709,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Sterling City,TX,Sterling County,76951,1045,7.75%,1045,1045,707,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Sterling County,TX,Sterling County,76951,1044,6.25%,1044,1044,707,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Sutton County,TX,Sutton County,76950,1046,6.25%,1046,1046,709,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Vancourt,TX,Tom Green County,76955,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Veribest,TX,Tom Green County,76886,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Wall,TX,Tom Green County,76957,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Water Valley,TX,Tom Green County,76958,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Ballinger City,TX,Runnels County,76821,1000,8.25%,1000,1000,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Barnhart,TX,Iron County,76930,1019,6.25%,1019,1019,703,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Big Lake City,TX,Regan County,76932,1002,8.25%,1002,1002,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Bronte City,TX,Coke County,76933,1053,8.25%,1053,1053,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Brown County,TX,Brown County,76801,1005,6.25%,1005,1005,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Carlsbad,TX,Tom Green County,76943,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Christoval,TX,Tom Green County,76935,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Coke County,TX,Coke County,76945,1006,6.25%,1006,1006,708,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Coleman County,TX,Coleman County,76878,1007,6.25%,1007,1007,704,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Concho County,TX,Concho County,76837,1010,6.75%,1010,1010,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Crockett County,TX,Crockett County,76943,1011,6.25%,1011,1011,706,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Eden City,TX,Concho County,76837,1014,8.25%,1014,1014,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Goodfellow AFB,TX,Tom Green County,76908,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Iron County,TX,Iron County,76941,1019,6.25%,1019,1019,703,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Junction City,TX,Kimble County,76849,1020,8.25%,1020,1020,705,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Kimble County,TX,Kimble County,76849,1022,6.75%,1022,1022,705,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Knickerbocker,TX,Tom Green County,76939,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,"McCullouch County, TX",TX,McCullouch County,76825,1024,7.00%,1024,1024,705,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Melvin,TX,McCullouch County,76859,1058,8.00%,1058,1058,714,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Menard City,TX,Menard County,76859,1026,8.25%,1026,1026,709,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Menard County,TX,Menard County,76859,1025,6.75%,1025,1025,709,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Mereta,TX,Tom Green County,76940,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Mertzon City,TX,Irion County,76941,1027,7.25%,1027,1027,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Miles City,TX,Runnels County,76861,1028,8.25%,1028,1028,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Ozona City,TX,Crockett County,76943,1031,6.25%,1031,1031,706,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Paint Rock City,TX,Concho County,76866,1032,7.75%,1032,1032,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Reagan County,TX,Reagan County,76932,1057,6.75%,1057,1057,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Robert Lee City,TX,Coke County,76945,1036,8.25%,1036,1036,708,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Runnels County,TX,Runnels County,76861,1038,6.75%,1038,1038,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,"San Angelo with FF (Inside City limits, with 5% franchise fee)",TX,Tom Green,"76901, 76902, 76903, 76904, 76905",1039,8.25%,1039,1039,401,SA01,30,N/A,N/A,10,10,20,Not offered
+691,3439,San Angelo (Outside City limits),TX,Tom Green County,"76904, 76901, 76903, 76905",1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,San Saba County,TX,San Saba County,76877,1040,6.75%,1040,1040,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Schleicher County,TX,Schleicher County,76936,1041,7.25%,1041,1041,702,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Sonora City,TX,Sutton County,76950,1043,8.25%,1043,1043,709,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Sterling City,TX,Sterling County,76951,1045,7.75%,1045,1045,707,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Sterling County,TX,Sterling County,76951,1044,6.25%,1044,1044,707,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Sutton County,TX,Sutton County,76950,1046,6.25%,1046,1046,709,SA04,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Vancourt,TX,Tom Green County,76955,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Veribest,TX,Tom Green County,76886,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Wall,TX,Tom Green County,76957,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
+691,3439,Water Valley,TX,Tom Green County,76958,1048,6.75%,1048,1048,701,SA11,12,N/A,N/A,11,N/A,21,Not offered
