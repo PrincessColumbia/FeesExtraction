@@ -197,14 +197,24 @@ $divisionList | ForEach-Object {
 
 
 $divisionListWithLinks = Import-Csv $tempTable
+$divisionListWithLinks | Add-Member -MemberType NoteProperty -Name "NumOfInv_Groups" -Value $null
+$divisionListWithLinks | Add-Member -MemberType NoteProperty -Name "Inv_Groups_Symbols" -Value $null
+
+
 $divisionListWithLinks | ForEach-Object {
     
 
-    $fileSaveLocation = $projectTemp + $_.DataEntryFileName
+    $fileSaveLocationDataEntry = $projectTemp + $_.DataEntryFileName
     [io.file]::WriteAllText($fileSaveLocation,(Invoke-WebRequest -URI $_.DataEntryLink -UseDefaultCredentials -UseBasicParsing).content)
-    $fileSaveLocation = $projectTemp + $_.BillingFileName
+    $fileSaveLocationBilling = $projectTemp + $_.BillingFileName
     [io.file]::WriteAllText($fileSaveLocation,(Invoke-WebRequest -URI $_.BillingLink -UseDefaultCredentials -UseBasicParsing).content)
 
+    # logic to use user input to get the invoice groups goes here
+    start chrome $fileSaveLocationBilling
+    $countInvGroups = Read-Host -Prompt 'How many Invoice Groups are in Billing Information - Residential/Invoice Group for Division' $_.DivNum
+    $symbolsInvGroups = Read-Host -Prompt 'What are the invoice group symbols? (ex. A,B,C,1,2,3) Separate multiple symbols with commas'
+    $_.NumOfInv_Groups = $countInvGroups
+    $_.Inv_Groups_Symbols = $symbolsInvGroups
 }
 
 
@@ -297,11 +307,11 @@ $importDataSet | ForEach-Object {
     if ($summaryRoutedValue -eq 0) {
         $trackerObject | Add-Member -MemberType NoteProperty -Name "Form Completed" -Value $today
         $trackerObject | Add-Member -MemberType NoteProperty -Name "Notes" -Value "Summary Routed Account"
-        Move-Item $documentPath $summaryRoutedAudit -Force
+        Copy-Item $documentPath $summaryRoutedAudit -Force
         
         # Count of Lines Needed
         $billingDoc = $projectTemp + $_.Name
-        $invoiceGroupPrep = Select-String -Path 
+        #$invoiceGroupPrep = Select-String -Path 
 
 
         } else {
@@ -324,4 +334,4 @@ Notes
 $trackerTest = $projectHome + "tracker-test.csv"
 $compiledResults = $projectHome + "compiled-results.csv"
 $importDataSet | Select-Object Name,LawsonDiv,DivisionNo,PolygonID,"Rate ID",CityOrEntity,State,Assigned,"Form Completed",Notes | Export-Csv -Append $trackerTest -NoTypeInformation #$areaTrackerFilename
-$importDataSet | Select-Object "Row Type","Rate ID" | Export-Csv -Append -NoTypeInformation 
+$importDataSet | Select-Object "Row Type","Rate ID" | Export-Csv -Append -NoTypeInformation -Path $compiledResults
