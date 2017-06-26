@@ -472,9 +472,24 @@ Function QuickDocsOpen ($docName) {
 Function OpenWholeDivision ($divNum) {
  
     $billingLinkTemp = $divisionResourcesCSV | Where-Object { $_."Division #" -eq $divNum } | Select-Object "Billing and Collections Link" | Select -ExpandProperty "Billing and Collections Link"
-    $sessionOpenList = $importedDocumentList | Where-Object { $_.DivisionNo -eq $divNum }
+    $sessionOpenListTemp = $importedDocumentList | Where-Object { $_.DivisionNo -eq $divNum }
+    $sessionOpenList = $sessionOpenListTemp | Where-Object { [string]::IsNullOrEmpty($_."Form Completed") -eq "True" }
     $sessionOpenList | ForEach-Object {
         start chrome $_.Link
     }
     start chrome $billingLinkTemp
+}
+
+Function RefreshDataEntry {
+    # Load Data Entry information from Resources files into system memory
+    $dataEntryTableTempVar = $projectResources + $dirChar + "dataentry.csv"
+    $dataEntryTable = Import-Csv $dataEntryTableTempVar
+    #Fix the City capitalization
+
+    $dataEntryTable | ForEach-Object {
+        $words = $_.City
+        $TextInfo = (Get-Culture).TextInfo
+        $fixedCity = $TextInfo.ToTitleCase($words.ToLower())
+        $_.City = $fixedCity
+    }
 }
