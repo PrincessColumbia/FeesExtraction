@@ -452,7 +452,7 @@ if ($tempTestResult -gt 0) {
 # A custom function to quickly find the Rev_Dist_Code in the Data Entry table
 Function ResiCodeLookup ($city, $state) {
     $tmpTable = $dataEntryTable | Where-Object { $_.City -eq $city }
-    $tmpTable | Where-Object { $_.State -eq $state } | Select-Object DIV,Lawson,City,State,Residential
+    $tmpTable | Where-Object { $_.State -eq $state } | Select-Object DIV,Lawson,City,State,Residential,"Acquisition Code"
 }
 
 # A custom function to quickly open a Data Entry document when only the division number is known
@@ -473,6 +473,17 @@ Function OpenWholeDivision ($divNum) {
  
     $billingLinkTemp = $divisionResourcesCSV | Where-Object { $_."Division #" -eq $divNum } | Select-Object "Billing and Collections Link" | Select -ExpandProperty "Billing and Collections Link"
     $sessionOpenListTemp = $importedDocumentList | Where-Object { $_.DivisionNo -eq $divNum }
+    $sessionOpenList = $sessionOpenListTemp | Where-Object { [string]::IsNullOrEmpty($_."Form Completed") -eq "True" }
+    $sessionOpenList | ForEach-Object {
+        start chrome $_.Link
+    }
+    start chrome $billingLinkTemp
+}
+
+Function OpenWholeLawson ($lawson) {
+ 
+    $billingLinkTemp = $divisionResourcesCSV | Where-Object { $_."Lawson #" -eq $lawson } | Select-Object "Billing and Collections Link" | Select -ExpandProperty "Billing and Collections Link"
+    $sessionOpenListTemp = $importedDocumentList | Where-Object { $_.LawsonDiv -eq $lawson }
     $sessionOpenList = $sessionOpenListTemp | Where-Object { [string]::IsNullOrEmpty($_."Form Completed") -eq "True" }
     $sessionOpenList | ForEach-Object {
         start chrome $_.Link
