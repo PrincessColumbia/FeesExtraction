@@ -461,12 +461,23 @@ Function OpenDataEntry ($divnum) {
     start chrome $tmpLink
 }
 
-Function QuickDocsOpen ($docName) {
-    $divNum = $docName.Substring(4,3)
-    $tmpBillingLink = $divisionResourcesCSV | Where-Object { $_."Division #" -eq $divNum } | Select-Object "Billing and Collections Link" | Select -ExpandProperty "Billing and Collections Link"
-    $tmpDocLink = $importedDocumentList | Where-Object { $_.Name -eq $docName } | Select-Object Link | Select -ExpandProperty "Link"
-    start chrome $tmpBillingLink
-    start chrome $tmpDocLink
+Function QuickDocsOpen ($type, $docName) {
+    if ($type -eq "name" -or "RateID") {
+        if ($type -eq "name") {
+            $tmpDocLink = $importedDocumentList | Where-Object { $_.Name -eq $docName } | Select-Object Link | Select -ExpandProperty "Link"
+            $divNum = $importedDocumentList | Where-Object { $_."Name" -eq $docName } | Select-Object DivisionNo | Select -ExpandProperty "DivisionNo"
+        } else {
+            $getDocNameFromRateID = $importedDocumentList | Where-Object { $_."Rate ID" -eq $docName } | Select-Object Name | Select -ExpandProperty "Name"
+            $divNum = $importedDocumentList | Where-Object { $_."Rate ID" -eq $docName } | Select-Object DivisionNo | Select -ExpandProperty "DivisionNo"
+            $tmpDocLink = $importedDocumentList | Where-Object { $_.Name -eq $getDocNameFromRateID } | Select-Object Link | Select -ExpandProperty "Link"
+        }
+       $tmpBillingLink = $divisionResourcesCSV | Where-Object { $_."Division #" -eq $divNum } | Select-Object "Billing and Collections Link" | Select -ExpandProperty "Billing and Collections Link"
+       start chrome $tmpBillingLink
+       start chrome $tmpDocLink
+
+    } else {
+        Write-Host "QuickDocsOpen can only search based on a full and correct filename or RateID. Format your command as 'QuickDocsOpen name filename.html' or 'QuickDocsOpen rateid 1234-123-1234567'"
+    }
 }
 
 Function OpenWholeDivision ($divNum) {
@@ -479,6 +490,13 @@ Function OpenWholeDivision ($divNum) {
     }
     start chrome $billingLinkTemp
 }
+
+Function OpenDivBilling ($divNum) {
+ 
+    $billingLinkTemp = $divisionResourcesCSV | Where-Object { $_."Division #" -eq $divNum } | Select-Object "Billing and Collections Link" | Select -ExpandProperty "Billing and Collections Link"
+    start chrome $billingLinkTemp
+}
+
 
 Function OpenWholeDivisionBatch ($divNum, $batchSize) {
  
