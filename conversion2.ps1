@@ -85,8 +85,8 @@ if ($startList) {
 # Create the imported data array from the starting list of documents to process
 $importedDocumentList = Import-Csv $startListPath
 
-$importedDocumentList | Add-Member -MemberType NoteProperty -Name CityOrEntity -Value $null
-$importedDocumentList | Add-Member -MemberType NoteProperty -Name State -Value $null
+#$importedDocumentList | Add-Member -MemberType NoteProperty -Name CityOrEntity -Value $null
+#$importedDocumentList | Add-Member -MemberType NoteProperty -Name State -Value $null
 $importedDocumentList | Add-Member -MemberType NoteProperty -Name Assigned -Value $env:USERNAME
 $importedDocumentList | Add-Member -MemberType NoteProperty -Name "Link" -Value $null -Force
 $importedDocumentList | Add-Member -MemberType NoteProperty -Name "LinkSuccess" -Value $null
@@ -480,6 +480,17 @@ Function OpenWholeDivision ($divNum) {
     start chrome $billingLinkTemp
 }
 
+Function OpenWholeDivisionBatch ($divNum, $batchSize) {
+ 
+    $billingLinkTemp = $divisionResourcesCSV | Where-Object { $_."Division #" -eq $divNum } | Select-Object "Billing and Collections Link" | Select -ExpandProperty "Billing and Collections Link"
+    $sessionOpenListTemp = $importedDocumentList | Where-Object { $_.DivisionNo -eq $divNum } | Select-Object -First $batchSize 
+    $sessionOpenList = $sessionOpenListTemp | Where-Object { [string]::IsNullOrEmpty($_."Form Completed") -eq "True" }
+    $sessionOpenList | ForEach-Object {
+        start chrome $_.Link
+    }
+    start chrome $billingLinkTemp
+}
+
 Function OpenWholeLawson ($lawson) {
  
     $billingLinkTemp = $divisionResourcesCSV | Where-Object { $_."Lawson #" -eq $lawson } | Select-Object "Billing and Collections Link" | Select -ExpandProperty "Billing and Collections Link"
@@ -490,6 +501,19 @@ Function OpenWholeLawson ($lawson) {
     }
     start chrome $billingLinkTemp
 }
+
+Function OpenDocument ($docName) {
+ 
+    $sessionOpenListTemp = $importedDocumentList | Where-Object { $_.Name -eq $docName }
+    $sessionOpenList = $sessionOpenListTemp | Where-Object { [string]::IsNullOrEmpty($_."Form Completed") -eq "True" }
+    $docsDiv = $sessionOpenList | Select-Object DivisionNo | Select -ExpandProperty "DivisionNo"
+    $billingLinkTemp = $divisionResourcesCSV | Where-Object { $_."Division #" -eq $docsDiv } | Select-Object "Billing and Collections Link" | Select -ExpandProperty "Billing and Collections Link"
+    $sessionOpenList | ForEach-Object {
+        start chrome $_.Link
+    }
+    start chrome $billingLinkTemp
+}
+
 
 Function RefreshDataEntry {
     # Load Data Entry information from Resources files into system memory
