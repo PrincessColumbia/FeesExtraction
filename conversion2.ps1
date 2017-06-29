@@ -501,8 +501,8 @@ Function OpenDivBilling ($divNum) {
 Function OpenWholeDivisionBatch ($divNum, $batchSize) {
  
     $billingLinkTemp = $divisionResourcesCSV | Where-Object { $_."Division #" -eq $divNum } | Select-Object "Billing and Collections Link" | Select -ExpandProperty "Billing and Collections Link"
-    $sessionOpenListTemp = $importedDocumentList | Where-Object { $_.DivisionNo -eq $divNum } | Select-Object -First $batchSize 
-    $sessionOpenList = $sessionOpenListTemp | Where-Object { [string]::IsNullOrEmpty($_."Form Completed") -eq "True" }
+    $sessionOpenListTemp = $importedDocumentList | Where-Object { $_.DivisionNo -eq $divNum }
+    $sessionOpenList = $sessionOpenListTemp | Where-Object { [string]::IsNullOrEmpty($_."Form Completed") -eq "True" } | Select-Object -First $batchSize
     $sessionOpenList | ForEach-Object {
         start chrome $_.Link
     }
