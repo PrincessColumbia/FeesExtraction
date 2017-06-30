@@ -71,7 +71,7 @@ $divisionResourcesCSV | ForEach-Object {
 }
 
 # Get list of documents
-$startListPath = $projectHome + "feesExtractor.csv"
+$startListPath = $projectHome + "Personal Pricing Tracker.xlsx"
 $startList = Test-Path $startListPath
 if ($startList) {
         Write-Host Processing list of documents
@@ -83,7 +83,7 @@ if ($startList) {
 
 
 # Create the imported data array from the starting list of documents to process
-$importedDocumentList = Import-Csv $startListPath
+$importedDocumentList = Import-Excel $startListPath -WorkSheetname "feesExtractor"
 
 #$importedDocumentList | Add-Member -MemberType NoteProperty -Name CityOrEntity -Value $null
 #$importedDocumentList | Add-Member -MemberType NoteProperty -Name State -Value $null
@@ -96,7 +96,8 @@ $importedDocumentList | ForEach-Object {
 
     $_.Name = $_.Name -replace " ","%20"
 
-    $rateId = $_.LawsonDiv + "-" + $_.DivisionNo + "-" + $_.PolygonID
+    $spaceSubstitute = "-"
+    $rateId = [string]$_.LawsonDiv + $spaceSubstitute + [string]$_.DivisionNo + $spaceSubstitute + [string]$_.PolygonID
     $_."Rate ID" = $rateId
 
     $AreaWeb = $_.Area -replace ' ','%20'
@@ -403,7 +404,8 @@ $runTestPrompt = Read-Host -Prompt "Test to make sure the documents will open? (
 
 if ($runTestPrompt -eq "Y") {
 # Open the Resi documents in Chrome
-$importedDocumentList | ForEach-Object {
+$needsOpenTesting = $importedDocumentList | Where-Object { [string]::IsNullOrEmpty($_."Form Completed") -eq "True" }
+$needsOpenTesting | ForEach-Object {
 
     start chrome $_.Link
     $linkTest = Read-Host -Prompt "Did the document open? (Y/N only, default is 'N')"
@@ -423,17 +425,16 @@ $failedURLs | Export-Csv -Path $failedURLFilePath -NoTypeInformation
 
 
 # Load Data Entry information from Resources files into system memory
-$dataEntryTableTempVar = $projectResources + $dirChar + "dataentry.csv"
-$dataEntryTable = Import-Csv $dataEntryTableTempVar
+$dataEntryTableTempVar = $projectResources + $dirChar + "dataentry.xlsx"
+#$dataEntryTableTempVar = $projectResources + $dirChar + "dataentry.csv"
+$dataEntryTable = Import-Excel $dataEntryTableTempVar -WorkSheetname "dataentry"
 #Fix the City capitalization
-
 $dataEntryTable | ForEach-Object {
     $words = $_.City
     $TextInfo = (Get-Culture).TextInfo
     $fixedCity = $TextInfo.ToTitleCase($words.ToLower())
     $_.City = $fixedCity
 }
-
 # Check to see if any new divisions need entering into the Data Entry table
 $tempList1 = $dataEntryTable.DIV | Select-Object -Unique
 $tempList2 = $importedDocumentList.DivisionNo | Select-Object -Unique
@@ -544,5 +545,72 @@ Function RefreshDataEntry {
         $TextInfo = (Get-Culture).TextInfo
         $fixedCity = $TextInfo.ToTitleCase($words.ToLower())
         $_.City = $fixedCity
+    }
+}
+
+Function BatchResiLookup ($divNum) {
+    #Get the city list
+    $cityListTemp = $importedDocumentList | Where-Object { ([string]::IsNullOrEmpty($_."Form Completed") -eq "True") -and ($_.DivisionNo -eq $divNum) } | Select-Object "City"
+    $cityListTemp = $cityListTemp -replace "@{City=", ""
+    $cityListTemp = $cityListTemp -replace ", ", "`r`n"
+    $cityListTemp = $cityListTemp -replace "}", ""
+    $cityListTemp = $cityListTemp | Select -Unique
+
+    #Get the state list
+    $stateListTemp = $importedDocumentList | Where-Object { ([string]::IsNullOrEmpty($_."Form Completed") -eq "True") -and ($_.DivisionNo -eq $divNum) } | Select-Object "State"
+    $stateListTemp = $stateListTemp -replace "@{State=", ""
+    $stateListTemp = $stateListTemp -replace ", ", "`r`n"
+    $stateListTemp = $stateListTemp -replace "}", ""
+    $stateListTemp = $stateListTemp | Select -Unique
+
+    $cityListTemp | ForEach-Object {
+        $city = $_
+        $stateListTemp | ForEach-Object {
+            ResiCodeLookup $city $_
+        }
+    }
+}
+
+Function RefreshDocList {
+    
+    # Clear the array
+    $importedDocumentList = $null
+
+    # Create the imported data array from the starting list of documents to process
+    $importedDocumentList = Import-Excel $startListPath -WorkSheetname "feesExtractor"
+    
+    #$importedDocumentList | Add-Member -MemberType NoteProperty -Name CityOrEntity -Value $null
+    #$importedDocumentList | Add-Member -MemberType NoteProperty -Name State -Value $null
+    $importedDocumentList | Add-Member -MemberType NoteProperty -Name Assigned -Value $env:USERNAME
+    $importedDocumentList | Add-Member -MemberType NoteProperty -Name "Link" -Value $null -Force
+    $importedDocumentList | Add-Member -MemberType NoteProperty -Name "LinkSuccess" -Value $null
+    
+    # Pulls the list of documents to be worked 
+    $importedDocumentList | ForEach-Object {
+    
+        $_.Name = $_.Name -replace " ","%20"
+            
+        $spaceSubstitute = "-"
+        $rateId = [string]$_.LawsonDiv + $spaceSubstitute + [string]$_.DivisionNo + $spaceSubstitute + [string]$_.PolygonID
+        $_."Rate ID" = $rateId
+
+        $AreaWeb = $_.Area -replace ' ','%20'
+        $AreaWebSub = $AreaWeb + "/"
+        $areaSpaceUnderscore = $_.Area -replace ' ','_'
+        $areaDashUnderscore = $_.Area -replace '-','_'
+        $areaOnlyUnderscore = $areaSpaceUnderscore -replace '-','_'
+        $AreaOnly = $_.Area.Substring(4)
+        $AreaOnlyUnderscore = $areaSpaceUnderscore.Substring(4)
+
+  
+        $compassWebLocation = "http://compass.repsrv.com/DivisionalDocuments/"
+        $compassUrl = $compassWebLocation + $AreaWebSub + $_.Name
+        $_.Link = $compassUrl
+    
+    <# Changed process to no longer save the pages to the local disk.
+        $fileSaveLocation = $projectTemp + $_.Name
+        [io.file]::WriteAllText($fileSaveLocation,(Invoke-WebRequest -URI $compassUrl -UseDefaultCredentials -UseBasicParsing).content)
+    #>
+    
     }
 }
