@@ -1,0 +1,280 @@
+Division #,Lawson #,Division Name,Business Unit Name,Area,In Compass
+015,4015,AWS - Clinton,BU327 GREATER QUAD CITIES,A05-Midwest,Yes
+029,4267,AWS - Fredericksburg,BU120 NORTH CENTRAL VIRGINIA,A08-Mid_Atlantic,Yes
+035,4035,AWS - Jefferson City,BU340 JEFFERSON CITY,A04-Heartland,Yes
+046,3681,"Columbus, Bellefontaine & Mansfield",BU156 COLUMBUS,A10-Great%20Lakes,Yes
+046,4046,"Columbus, Bellefontaine & Mansfield",BU156 COLUMBUS,A10-Great%20Lakes,Yes
+046,4226,"Columbus, Bellefontaine & Mansfield",BU156 COLUMBUS,A10-Great%20Lakes,Yes
+050,4050,AWS - Baltimore,BU117 BALTIMORE,A08-Mid_Atlantic,Yes
+053,4053,AWS - Tulsa,BU332 EASTERN OKLAHOMA,A04-Heartland,Yes
+058,4058,AWS - Abilene,BU215 ABILENE/SAN ANGELO,A06-South,Yes
+060,4060,AWS - Oklahoma City,BU331 CENTRAL OKLAHOMA,A04-Heartland,Yes
+066,4066,AWS - Amarillo,BU210 AMARILLO/LUBBOCK,A06-South,Yes
+068,3436,Duncan Disposal-Lubbock,BU210 AMARILLO/LUBBOCK,A06-South,Yes
+069,4069,AWS - Corsicana,BU201 HUTCHINS/CORSICANA,A06-South,Yes
+070,4070,AWS - Kilgore,BU206 EAST TEXAS,A06-South,Yes
+091,3765,NSA Fort Wayne,BU308 FORT WAYNE,A10-Great%20Lakes,Yes
+092,4091,AWS - Bryan,BU306 DETROIT POST COLLECTION,A10-Great%20Lakes,Yes
+094,4094,AWS - Boston - Revere,BU141 REVERE,A09-Northeast,Yes
+095,4095,AWS - Tyngsboro,BU142 TYNGSBORO,A09-Northeast,Yes
+096,4096,AWS - Cape Cod,BU140 FALL RIVER/CAPE COD,A09-Northeast,Yes
+097,4097,AWS - Fall River,BU140 FALL RIVER/CAPE COD,A09-Northeast,Yes
+111,4111,AWS - Buffalo,BU147 BUFFALO,A09-Northeast,Yes
+172,4172,AWS - Bellevue,BU407 BELLEVUE/LYNWOOD,A01-Northwest,No -Customer Service Contact Information
+175,4175,AWS - Seattle,BU404 KENT,A01-Northwest,No -Customer Service Contact Information
+176,4176,Kent-Meridian Disposal Company,BU404 KENT,A01-Northwest,No -Customer Service Contact Information
+183,4183,AWS - Kent,BU404 KENT,A01-Northwest,No -Customer Service Contact Information
+197,4197,AWS - Lynnwood,BU407 BELLEVUE/LYNWOOD,A01-Northwest,No -Customer Service Contact Information
+205,4205,AWS - Sunrise Sanitation,BU418 STOCKTON,A02-West,No -Customer Service Contact Information
+206,4206,AWS - Sunset Disposal,BU418 STOCKTON,A02-West,No -Customer Service Contact Information
+207,4207,AWS - Lathrop Sanitation,BU418 STOCKTON,A02-West,No -Customer Service Contact Information
+208,4208,Delta Container,BU418 STOCKTON,A02-West,No -Customer Service Contact Information
+210,4210,AWS - Contra Costa County,BU422 CONTRA COSTA SOLANO,A02-West,No -Customer Service Contact Information
+223,4223,AWS - Cleveland,BU153 CLEVELAND,A10-Great%20Lakes,No -Customer Service Contact Information
+224,4224,AWS - Elyria,BU154 ELYRIA,A10-Great%20Lakes,Yes
+233,4233,AWS - St. George,BU453 SALT LAKE CITY POST COLLECTION,A01-Northwest,Yes
+237,3133,RepServof N. Michigan,BU305 FLINT/PINCONNING,A10-Great%20Lakes,Yes
+237,3302,RepServof N. Michigan,BU305 FLINT/PINCONNING,A10-Great%20Lakes,Yes
+239,3303,RepSvcsof Upper Michigan,BU304 NORTHERN MICHIGAN,A10-Great%20Lakes,Yes
+239,4239,RepSvcsof Upper Michigan,BU304 NORTHERN MICHIGAN,A10-Great%20Lakes,Yes
+239,4491,RepSvcsof Upper Michigan,BU304 NORTHERN MICHIGAN,A10-Great%20Lakes,Yes
+240,4240,AWS - Jenison,BU302 GRAND RAPIDS/MUSKEGON,A10-Great%20Lakes,Yes
+240,4489,AWS - Muskegon,BU302 GRAND RAPIDS/MUSKEGON,A10-Great%20Lakes,Yes
+241,4241,AWS - Detroit West,BU301 DETROIT,A10-Great%20Lakes,Yes
+249,3080,Republic-Kalamazoo,BU303 SOUTHWEST MICHIGAN,A10-Great%20Lakes,Yes
+249,4249,Republic-Kalamazoo,BU303 SOUTHWEST MICHIGAN,A10-Great%20Lakes,Yes
+253,4253,AWS - Detroit North,BU301 DETROIT,A10-Great%20Lakes,Yes
+259,4259,AWS - Toledo,BU152 TOLEDO,A10-Great%20Lakes,Yes
+260,4260,AWS - Dayton,BU349 CINCINNATI/N. KENTUCKY,A04-Heartland,No -Customer Service Contact Information
+262,4262,AWS - Youngstown,BU145 YOUNGSTOWN,A10-Great%20Lakes,Yes
+263,4263,AWS - Sandusky,BU152 TOLEDO,A10-Great%20Lakes,Yes
+264,4264,AWS - Pittsburgh,BU144 PITTSBURGH,A10-Great%20Lakes,No -Customer Service Contact Information
+270,4270,Republic Services of Carleton,BU306 DETROIT POST COLLECTION,A10-Great%20Lakes,Yes
+271,4271,AWS - Elkhart,BU310 SOUTHBEND/ELKHART,A05-Midwest,Yes
+282,3282,Lehigh Valley,BU123 WESTERN NJ/ALLENTOWN/TELFORD,A09-Northeast,Yes
+318,4318,AWS - Schuylkill Valley,BU122 WEST GROVE/LEESPORT,A09-Northeast,Yes
+319,4319,AWS - Brandywine,BU122 WEST GROVE/LEESPORT,A09-Northeast,Yes
+320,4320,AWS - Bucks-Mont,BU123 WESTERN NJ/ALLENTOWN/TELFORD,A09-Northeast,Yes
+321,4321,AWS - Delaware,BU122 WEST GROVE/LEESPORT,A09-Northeast,Yes
+323,4323,AWS - Philadelphia,BU124 PHILADELPHIA,A09-Northeast,Yes
+324,3508,AWS - Valley Forge,BU125 KING OF PRUSSIA,A09-Northeast,Yes
+324,4324,AWS - Valley Forge,BU125 KING OF PRUSSIA,A09-Northeast,Yes
+346,4346,AWS - Bridgeton,BU341 ST. LOUIS,A04-Heartland,No -Customer Service Contact Information
+350,4350,AWS - Edwardsville,BU342 EDWARDSVILLE,A04-Heartland,No -Customer Service Contact Information
+352,4352,AWS - Sangamon County,BU339 WEST CENTRAL ILLINOIS,A04-Heartland,Yes
+366,4366,AWS - Pontiac,BU317 WESTERN ILLINOIS,A05-Midwest,No -Customer Service Contact Information
+368,4368,AWS - Bloomington,BU339 WEST CENTRAL ILLINOIS,A04-Heartland,Yes
+375,4375,AWS - Alderson,BU332 EASTERN OKLAHOMA,A04-Heartland,Yes
+376,4376,AWS - Cherryvale,BU334 GALENA/BELLA VISTA,A04-Heartland,Yes
+384,4384,AWS - Wheeling,BU149 FAIRMONT/WHEELING,A10-Great%20Lakes,Yes
+388,4388,AWS - Carey,BU155 CENTRAL OHIO,A10-Great%20Lakes,Yes
+393,4393,AWS - Galena,BU334 GALENA/BELLA VISTA,A04-Heartland,Yes
+394,4394,AWS - Springfield - Ozarks,BU335 SPRINGFIELD/OZARKS,A04-Heartland,Yes
+400,4400,AWS - Bettendorf,BU327 GREATER QUAD CITIES,A05-Midwest,Yes
+401,4401,AWS - Bella Vista,BU334 GALENA/BELLA VISTA,A04-Heartland,Yes
+410,4410,AWS - Charlottesville,BU114 RICHMOND/WILLIAMSBURG,A08-Mid_Atlantic,Yes
+411,4411,AWS - Washington,BU119 WASHINGTON DC,A08-Mid_Atlantic,Yes
+425,4425,AWS - The Eastern Shore,BU122 WEST GROVE/LEESPORT,A09-Northeast,Yes
+426,4426,AWS - Delmar,BU122 WEST GROVE/LEESPORT,A09-Northeast,Yes
+427,4427,AWS - Hagerstown,BU118 HAGERSTOWN/FREDERICK/WINCHESTE,A08-Mid_Atlantic,Yes
+428,4428,AWS - Frederick,BU118 HAGERSTOWN/FREDERICK/WINCHESTE,A08-Mid_Atlantic,Yes
+435,4435,AWS - Osage Beach,BU340 JEFFERSON CITY,A04-Heartland,No -Customer Service Contact Information
+450,4450,AWS - Albany - Lebanon,BU401 WESTERN OREGON,A01-Northwest,No -Customer Service Contact Information
+451,4451,AWS - Salem - OR,BU401 WESTERN OREGON,A01-Northwest,No -Customer Service Contact Information
+452,4452,AWS - Corvallis,BU401 WESTERN OREGON,A01-Northwest,No -Customer Service Contact Information
+454,4454,AWS - Grants Pass,BU401 WESTERN OREGON,A01-Northwest,No -Customer Service Contact Information
+455,4455,AWSrvcsof Clackamas &Washin,BU402 METRO/NORTH VALLEY,A01-Northwest,No -Customer Service Contact Information
+456,4456,AWS - Marion County,BU402 METRO/NORTH VALLEY,A01-Northwest,No -Customer Service Contact Information
+463,4463,AWS - Fort Walton Beach,BU226 PENSACOLA/SOUTH ALABAMA,A07-Southeast,Yes
+466,4466,AWS - Yuma,BU441 IMPERIAL/YUMA,A03-Southwest,Yes
+467,4467,Valley Environmental Services,BU441 IMPERIAL/YUMA,A03-Southwest,Yes
+468,4468,AWS - Kansas City,BU333 KANSAS CITY,A04-Heartland,Yes
+469,4469,AWS - Lake Oswego,BU402 METRO/NORTH VALLEY,A01-Northwest,No -Customer Service Contact Information
+471,4471,BFI Services of Salinas,BU421 FRESNO/SALINAS,A02-West,No -Customer Service Contact Information
+472,4472,AWS - Portland,BU402 METRO/NORTH VALLEY,A01-Northwest,No -Customer Service Contact Information
+473,4473,AWS - Brenham,BU223 NORTHWEST HOUSTON,A06-South,Yes
+484,4484,AWS - Andalusia,BU226 PENSACOLA/SOUTH ALABAMA,A07-Southeast,Yes
+487,4487,AWS - Klickitat County,BU408 ROOSEVELT,A01-Northwest,No -Customer Service Contact Information
+493,4493,AWS - Northern Utah,BU454 SALT LAKE CITY,A01-Northwest,Yes
+509,4529,AWS - San Diego,BU434 SAN DIEGO,A03-Southwest,Yes
+516,4516,AWS - Page,BU453 SALT LAKE CITY POST COLLECTION,A01-Northwest,Yes
+527,4527,AWS - Lake Havasu,BU440 LAKE HAVASU,A03-Southwest,Yes
+529,4529,AWS - San Diego,BU434 SAN DIEGO,A03-Southwest,Yes
+535,4535,AWS - Denver,BU450 DENVER,A01-Northwest,Yes
+551,4480,AWS - Aurora& Elgin,BU320 ELGIN/AURORA,A05-Midwest,No -Customer Service Contact Information
+551,4551,RS of Mount Prospect,BU321 MOUNT PROSPECT,A05-Midwest,No -Customer Service Contact Information
+551,4993,AWS - Aurora& Elgin,BU320 ELGIN/AURORA,A05-Midwest,No -Customer Service Contact Information
+603,3168,Davie Sanitation,BU109 HICKORY,A08-Mid_Atlantic,Yes
+603,3173,GDS Winston-Salem,BU111 GREENSBORO/WINSTON SALEM,A08-Mid_Atlantic,Yes
+603,3182,GDS Winston-Salem,BU111 GREENSBORO/WINSTON SALEM,A08-Mid_Atlantic,Yes
+604,4604,RS Marshfield,BU139 RS MARSHFIELD,A09-Northeast,Yes
+605,4605,Huntington Beach Hauling,BU437 HUNTINGTON BEACH,A03-Southwest,Yes
+609,3180,"GDS New Bern, Plymouth",BU110 EASTERN NORTH CAROLINA,A08-Mid_Atlantic,Yes
+609,3181,"GDS New Bern, Plymouth",BU110 EASTERN NORTH CAROLINA,A08-Mid_Atlantic,Yes
+609,3509,"GDS New Bern, Plymouth",BU110 EASTERN NORTH CAROLINA,A08-Mid_Atlantic,Yes
+611,3811,York Waste,BU127 YORK,A09-Northeast,Yes
+620,3820,Republic Services of S. Nevada,BU445 NORTH LAS VEGAS,A02-West,No -Customer Service Contact Information
+620,3832,Henderson Hauling and Transfer,BU447 SOUTHERN NEVADA,A02-West,No -Customer Service Contact Information
+625,,National Accounts - General,,National Accounts,Email : NASSC.CustSvc@republicservices.com
+628,3280,RSG of NJ-Mt. Laurel,BU124 PHILADELPHIA,A09-Northeast,Yes
+633,4633,AWS - Anniston - Cleveland,BU240 NORTH ALABAMA,A07-Southeast,Yes
+646,3246,Reliable-Stevensville,BU303 SOUTHWEST MICHIGAN,A10-Great%20Lakes,Yes
+654,3754,Florida Refuse,BU251 LAKELAND,A07-Southeast,Yes
+674,4674,AWS -Scottdale,BU146 SCOTTDALE,A10-Great%20Lakes,Yes
+676,3876,RWS of S. CA - Anaheim,BU435 ANAHEIM,A03-Southwest,Yes
+678,3878,RWS of S. CA - Colton,BU436 COLTON,A03-Southwest,No -Customer Service Contact Information
+684,3332,Wabash Valley Refuse,BU367 WABASH/KOKOMO,A10-Great%20Lakes,Yes
+685,3153,GDS Hickory,BU109 HICKORY,A08-Mid_Atlantic,Yes
+685,3157,GDS Hickory,BU109 HICKORY,A08-Mid_Atlantic,Yes
+687,3605,"Jacksonville, FL",BU247 JACKSONVILLE,A07-Southeast,Yes
+687,3607,"Jacksonville, FL",BU247 JACKSONVILLE,A07-Southeast,Yes
+687,3614,"Jacksonville, FL",BU247 JACKSONVILLE,A07-Southeast,Yes
+687,3639,"Jacksonville, FL",BU247 JACKSONVILLE,A07-Southeast,Yes
+688,3432,Duncan - Alpine & Midland,BU205 MIDLAND/ODESSA,A06-South,Yes
+688,3438,Duncan - Alpine & Midland,BU205 MIDLAND/ODESSA,A06-South,Yes
+689,3250,MidcoCommercial,BU135 CENTRAL NEW JERSEY/MIDCO,A09-Northeast,Yes
+690,3776,Republic Services of Orlando,BU248 ORLANDO,A07-Southeast,Yes
+690,3778,Republic Services of Orlando,BU248 ORLANDO,A07-Southeast,Yes
+691,3439,Duncan Disposal-San Angelo,BU215 ABILENE/SAN ANGELO,A06-South,Yes
+692,3100,Fennell-Charleston,BU105 NORTH CHARLESTON,A08-Mid_Atlantic,Yes
+693,3152,GDS - Asheville,BU108 WESTERN NORTH CAROLINA,A08-Mid_Atlantic,Yes
+693,3160,GDS - Asheville,BU108 WESTERN NORTH CAROLINA,A08-Mid_Atlantic,Yes
+693,3161,GDS - Asheville,BU108 WESTERN NORTH CAROLINA,A08-Mid_Atlantic,Yes
+693,3186,GDS - Asheville,BU108 WESTERN NORTH CAROLINA,A08-Mid_Atlantic,Yes
+694,3125,Hoosier Disposal,BU346 WESTERN INDIANA,A10-Great%20Lakes,No -Customer Service Contact Information
+694,3138,Hoosier Disposal,BU346 WESTERN INDIANA,A10-Great%20Lakes,No -Customer Service Contact Information
+694,3231,Hoosier Disposal,BU346 WESTERN INDIANA,A10-Great%20Lakes,No -Customer Service Contact Information
+695,3752,All Service Refuse,BU257 FT. LAUDERDALE,A07-Southeast,Yes
+696,3753,SuncoastSanitation,BU250 TAMPA/SARASOTA,A07-Southeast,Yes
+696,3777,SuncoastSanitation,BU250 TAMPA/SARASOTA,A07-Southeast,Yes
+710,4710,AWS - Chicago,BU315 CHICAGO,A05-Midwest,No -Customer Service Contact Information
+715,3176,Meyer Waste,BU311 NORTHWEST INDIANA,A05-Midwest,Yes
+717,4717,AWS - Central Indiana,BU310 SOUTHBEND/ELKHART,A05-Midwest,Yes
+721,4719,AWS - Joliet& Dixon,BU317 WESTERN ILLINOIS,A05-Midwest,No -Customer Service Contact Information
+721,4721,AWS - Crestwood& Momence,BU316 CRESTWOOD,A05-Midwest,No -Customer Service Contact Information
+721,4766,AWS - Joliet& Dixon,BU317 WESTERN ILLINOIS,A05-Midwest,No -Customer Service Contact Information
+721,4770,AWS - Crestwood& Momence,BU316 CRESTWOOD,A05-Midwest,No -Customer Service Contact Information
+726,4726,AWS - Danville,BU347 DANVILLE/URBANA,A10-Great%20Lakes,Yes
+728,3616,Republic-Vidalia/Waycross,BU252 SAVANNAH/HILTON HEAD,A08-Mid_Atlantic,Yes
+728,3620,Republic-Vidalia/Waycross,BU252 SAVANNAH/HILTON HEAD,A08-Mid_Atlantic,Yes
+729,4729,AWS - Urbana,BU347 DANVILLE/URBANA,A10-Great%20Lakes,Yes
+732,3207,South IL / SE Missouri,BU338 SO ILL/SE MISSOURI,A04-Heartland,Yes
+732,3220,South IL / SE Missouri,BU338 SO ILL/SE MISSOURI,A04-Heartland,Yes
+732,4732,South IL / SE Missouri,BU338 SO ILL/SE MISSOURI,A04-Heartland,Yes
+742,4742,AWS - Charlotte,BU103 CHARLOTTE,A08-Mid_Atlantic,Yes
+742,4784,AWS - Charlotte,BU103 CHARLOTTE,A08-Mid_Atlantic,Yes
+743,4743,AWS - Columbia,BU101 COLUMBIA/LEE COUNTY,A08-Mid_Atlantic,Yes
+744,3103,Fennell-Greenville,BU102 GREENVILLE/DUNCAN,A08-Mid_Atlantic,Yes
+753,4753,AWS - Phoenix,BU438 PHOENIX,A03-Southwest,Yes
+757,3011,CSI of Western Kentucky,BU352 EVANSVILLE IN/WESTERN KY,A04-Heartland,Yes
+757,3049,CSI of Western Kentucky,BU352 EVANSVILLE IN/WESTERN KY,A04-Heartland,Yes
+758,3077,Industrial Disposal,BU351 LOUISVILLE,A04-Heartland,No -Customer Service Contact Information
+759,3760,RepublicSvcsof Palm Beach,BU258 WEST PALM BEACH,A07-Southeast,Yes
+760,3252,Barker Brothers Waste,BU353 MAYFIELD/UNION CITY,A04-Heartland,Yes
+761,3056,RSG - Indianapolis,BU344 INDIANAPOLIS,A10-Great%20Lakes,Yes
+762,3757,Seaside Sanitation,BU250 TAMPA/SARASOTA,A07-Southeast,Yes
+769,3758,Treasure Coast Refuse,BU258 WEST PALM BEACH,A07-Southeast,Yes
+778,4778,AWS - Troy,BU112 TROY/UWHARRIE,A08-Mid_Atlantic,No -Customer Service Contact Information
+782,4782,AWS - Lee County,BU101 COLUMBIA/LEE COUNTY,A08-Mid_Atlantic,Yes
+785,4785,AWS - Bullhead City,BU440 LAKE HAVASU,A03-Southwest,Yes
+786,4786,AWS - Tippecanoe County,BU347 DANVILLE/URBANA,A10-Great%20Lakes,Yes
+787,4884,AWS - Boise,BU455 BOISE,A01-Northwest,No -Customer Service Contact Information
+789,4789,AWS - Stillwater,BU332 EASTERN OKLAHOMA,A04-Heartland,Yes
+792,4792,AWS of Ottawa,BU317 WESTERN ILLINOIS,A05-Midwest,No -Customer Service Contact Information
+794,3402,Arlington Disposal,BU208 ARLINGTON,A06-South,Yes
+794,3434,DuncanDisp-Brazos,BU204 FORT WORTH,A06-South,Yes
+794,4071,AWS - Ft. Worth,BU204 FORT WORTH,A06-South,Yes
+794,4079,AWS - Plano,BU203 PLANO,A06-South,Yes
+794,4523,AWS - Hutchins,BU201 HUTCHINS/CORSICANA,A06-South,Yes
+794,4538,AWS - Ft. Worth,BU204 FORT WORTH,A06-South,Yes
+795,3437,DuncanDisp-Maloy,BU206 EAST TEXAS,A06-South,Yes
+796,3201,Commercial Waste Disposal,BU353 MAYFIELD/UNION CITY,A04-Heartland,Yes
+798,3010,CSI - Cincinnati Hauling,BU349 CINCINNATI/N. KENTUCKY,A04-Heartland,No -Customer Service Contact Information
+798,3085,CSI - Williamstown Hauling,BU349 CINCINNATI/N. KENTUCKY,A04-Heartland,No -Customer Service Contact Information
+800,3703,United Waste - North,BU244 ATLANTA NORTH,A07-Southeast,Yes
+800,4800,AWS - Atlanta,BU243 ATLANTA SOUTH,A07-Southeast,Yes
+802,4802,AWS - Birmingham,BU240 NORTH ALABAMA,A07-Southeast,Yes
+803,3803,Northern Virginia,BU120 NORTH CENTRAL VIRGINIA,A08-Mid_Atlantic,Yes
+808,4808,AWS - Escambia County,BU226 PENSACOLA/SOUTH ALABAMA,A07-Southeast,Yes
+810,4810,Ponce Hauling,BU255 PUERTO RICO,A07-Southeast,No -Customer Service Contact Information
+812,4812,San Juan,BU255 PUERTO RICO,A07-Southeast,No -Customer Service Contact Information
+820,4820,AWS - Baton Rouge,BU229 BATON ROUGE,A07-Southeast,Yes
+823,4823,AWS - Jackson,BU225 WESTERN MISSISSIPPI,A07-Southeast,Yes
+825,4825,AWS - Tri-Cities,BU108 WESTERN NORTH CAROLINA,A08-Mid_Atlantic,Yes
+832,4832,AWS - Lake Charles,BU222 ACADIANA,A07-Southeast,Yes
+833,4833,AWS -Acadiana,BU222 ACADIANA,A07-Southeast,Yes
+837,4837,AWS - Memphis,BU234 MEMPHIS,A04-Heartland,Yes
+840,4840,AWS - Nashville,BU236 NASHVILLE,A07-Southeast,Yes
+841,4841,AWS - Murfreesboro,BU236 NASHVILLE,A07-Southeast,Yes
+842,4842,AWS - New Orleans,BU230 NEW ORLEANS,A07-Southeast,Yes
+843,4843,AWS - Austin /Del Valle,BU211 AUSTIN,A06-South,Yes
+845,3845,Saguaro Environmental,BU442 TUCSON,A03-Southwest,Yes
+846,3858,Solano Garbage Company,BU422 CONTRA COSTA SOLANO,A02-West,No -Customer Service Contact Information
+847,4847,AWS - Corpus Christi,BU212 CORPUS CHRISTI,A06-South,Yes
+851,3851,Rep. Serv. of Northern CA,BU415 RICHMOND,A02-West,No -Customer Service Contact Information
+851,3852,Rep. Serv. of Northern CA,BU415 RICHMOND,A02-West,No -Customer Service Contact Information
+851,3854,Rep. Serv. of Northern CA,BU415 RICHMOND,A02-West,No -Customer Service Contact Information
+853,3421,Houston - Tanner Road,BU223 NORTHWEST HOUSTON,A06-South,Yes
+853,4852,AWS - Houston,BU220 NORTHEAST HOUSTON,A06-South,Yes
+853,4853,AWS - West Houston,BU219 SOUTHWEST HOUSTON,A06-South,Yes
+855,4855,AWS - Houston Services Group,BU221 SOUTHEAST HOUSTON,A06-South,Yes
+858,4858,AWS - Little Rock,BU233 LITTLE ROCK,A04-Heartland,Yes
+859,4859,AWS - San Antonio,BU213 SAN ANTONIO,A06-South,Yes
+862,4862,AW Texas,BU221 SOUTHEAST HOUSTON,A06-South,Yes
+863,4863,AWS - Rio Grande Valley,BU214 HARLINGEN,A06-South,Yes
+864,4494,AWS - Utah County,BU454 SALT LAKE CITY,A01-Northwest,Yes
+864,4495,AWS - Utah County,BU454 SALT LAKE CITY,A01-Northwest,Yes
+864,4864,AWS - Salt Lake City,BU454 SALT LAKE CITY,A01-Northwest,Yes
+865,3211,Raritan Valley Disposal,BU123 WESTERN NJ/ALLENTOWN/TELFORD,A09-Northeast,Yes
+866,3105,RSG of Hilton Head,BU252 SAVANNAH/HILTON HEAD,A08-Mid_Atlantic,Yes
+867,3112,RSG of Savannah,BU252 SAVANNAH/HILTON HEAD,A08-Mid_Atlantic,Yes
+868,4868,AWS - Greenville,BU225 WESTERN MISSISSIPPI,A07-Southeast,Yes
+869,4869,AWS - Northern MS,BU225 WESTERN MISSISSIPPI,A07-Southeast,Yes
+870,3682,Akron/Canton Hauling,BU155 CENTRAL OHIO,A10-Great%20Lakes,Yes
+873,3273,Marpal,BU132 EAST CENTRAL NEW JERSEY,A09-Northeast,Yes
+886,4886,AWS - Bozeman,BU452 MONTANA,A01-Northwest,No -Customer Service Contact Information
+889,4889,AWS - Missoula,BU452 MONTANA,A01-Northwest,No -Customer Service Contact Information
+891,4891,AWS - Sauk Rapids,BU325 TWIN CITIES COLLECTION,A05-Midwest,Yes
+892,4892,AWS - Billings,BU452 MONTANA,A01-Northwest,No -Customer Service Contact Information
+893,4893,AWS - Daly City,BU420 BAY AREA HAULING,A02-West,No -Customer Service Contact Information
+894,4894,AWS - Eden Prairie,BU323 TWIN CITIES COLLECTION,A05-Midwest,Yes
+897,4897,AWS - Dubuque,BU327 GREATER QUAD CITIES,A05-Midwest,Yes
+899,4899,AWS - Blain,BU323 TWIN CITIES COLLECTION,A05-Midwest,Yes
+902,3840,Long Beach,BU430 LONG BEACH,A03-Southwest,Yes
+902,3891,Long Beach,BU430 LONG BEACH,A03-Southwest,Yes
+902,3893,American Waste,BU427 GARDENA,A03-Southwest,Yes
+902,3895,Sun Valley,BU428 SUN VALLEY,A03-Southwest,Yes
+915,4915,AWS - Santa Clara County,BU425 NEWBY ISLAND,A02-West,No -Customer Service Contact Information
+916,4916,AWS - Alameda County,BU419 BAY AREA HAULING,A02-West,No -Customer Service Contact Information
+917,4917,AWS - Fresno,BU421 FRESNO/SALINAS,A02-West,No -Customer Service Contact Information
+922,4922,AWS - Sacramento,BU414 SACRAMENTO,A02-West,No -Customer Service Contact Information
+923,4923,AWS - Inver Grove Heights,BU326 TWIN CITIES COLLECTION,A05-Midwest,Yes
+924,4924,AWS - Evansville,BU352 EVANSVILLE IN/WESTERN KY,A04-Heartland,Yes
+925,4925,AWS - San Mateo,BU420 BAY AREA HAULING,A02-West,No -Customer Service Contact Information
+928,4928,AWS - Quincy,BU339 WEST CENTRAL ILLINOIS,A04-Heartland,Yes
+930,4930,AWS - Wisconsin,BU325 NORTHERN WISCONSIN,A05-Midwest,Yes
+939,3170,AWS - Raleigh,BU107 RALEIGH,A08-Mid_Atlantic,Yes
+939,4939,AWS - Raleigh,BU107 RALEIGH,A08-Mid_Atlantic,Yes
+954,4954,AWS - Auburn,BU138 AUBURN/SPRINGFIELD,A09-Northeast,Yes
+955,4955,AWS - Pittsfield,BU130 ALBANY METRO,A09-Northeast,Yes
+956,4956,Springfield,BU138 AUBURN/SPRINGFIELD,A09-Northeast,Yes
+957,4957,AWS - Williamsburg-Yorktown,BU114 RICHMOND/WILLIAMSBURG,A08-Mid_Atlantic,Yes
+959,4959,AWS - Pensacola,BU226 PENSACOLA/SOUTH ALABAMA,A07-Southeast,Yes
+960,4960,AW Services of Magnolia Spring,BU226 PENSACOLA/SOUTH ALABAMA,A07-Southeast,Yes
+964,4964,AWS - Albany,BU130 ALBANY METRO,A09-Northeast,Yes
+965,4965,AWS - Richmond,BU114 RICHMOND/WILLIAMSBURG,A08-Mid_Atlantic,Yes
+971,4971,AWS - Huntington,BU150 HUNTINGTON,A08-Mid_Atlantic,Yes
+972,4972,AWS - Fairmont,BU149 FAIRMONT/WHEELING,A10-Great%20Lakes,Yes
+973,4973,AWS - Roanoke Valley,BU111 GREENSBORO/WINSTON SALEM,A08-Mid_Atlantic,Yes
+974,4974,AWS - Lynchburg,BU111 GREENSBORO/WINSTON SALEM,A08-Mid_Atlantic,Yes
+975,4975,AWS - Shreveport,BU207 SHREVEPORT,A07-Southeast,Yes
+976,4976,AWS - Winchester,BU118 HAGERSTOWN/FREDERICK/WINCHESTE,A08-Mid_Atlantic,Yes
+979,4979,AWS - Huntsville,BU232 HUNTSVILLE/HILLSBORO,A07-Southeast,Yes
+986,4807,AWS - Clarke County,BU226 PENSACOLA/SOUTH ALABAMA,A07-Southeast,Yes
+986,4986,AWS - Mobile,BU226 PENSACOLA/SOUTH ALABAMA,A07-Southeast,Yes
+991,4991,AWS - Hattiesburg,BU225 WESTERN MISSISSIPPI,A07-Southeast,Yes
+993,3006,AWS - Lexington,BU350 LEXINGTON,A04-Heartland,Yes
+993,4993,AWS - Lexington,BU350 LEXINGTON,A04-Heartland,Yes
+993,4994,AWS - Frankfort,BU350 LEXINGTON,A04-Heartland,Yes
+997,4997,AWS - Chattanooga,BU241 CHATTANOOGA,A07-Southeast,Yes
+999,4999,AWS - Rome,BU241 CHATTANOOGA,A07-Southeast,Yes

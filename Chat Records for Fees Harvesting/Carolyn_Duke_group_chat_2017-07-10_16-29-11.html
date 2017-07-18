@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Chat</title>
+
+      <title>IM Renderer Page</title>
+
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <base target="_self"/>
+
+
+        
+        &lt;table class=&quot;msgText&quot;&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;errorAlertIco&quot;&gt;&lt;img src=&quot;res://instant-message.dll/#10/#2415&quot; /&gt;&lt;/td&gt;
+            &lt;td class=&quot;boxedMessageText&quot;&gt;It appears that you do not have JavaScript enabled, please contact your adminitrator.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/table&gt;            
+    
+
+  <style type="text/css">body{font-family: Segoe UI;font-size: 9pt;} .messageTable{width: 500px;} .buddyName{padding-top: 3px;padding-right: 0px;padding-bottom: 3px;padding-left: 8px;font-weight: bold;word-wrap: break-word;} .timeStamp{white-space: nowrap;color: #AAAAAA;font-weight: normal;vertical-align: top;padding-right: 11px;padding-left: 11px;} .dateRollover{padding-top: 3px;padding-right: 0px;padding-bottom: 3px;padding-left: 8px;font-weight: bold;word-wrap: break-word;vertical-align: middle;text-align: center;color: #1E2126;} .hiddenRow td{height: 0px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;} .partyMsgText{color: #808080;font-style: italic;font-size: 10pt;}</style>
+ </head>
+
+
+ <body bgcolor="#ffffff">
+      <div class="timestampSizeCalulator timestamp" id="calculator"/>
+
+      <div class="messageBox" id="messageBox" style="height: 789px;">
+         <div class="show_more_button_div" id="show_more_button_up_div" style="display: none;">
+            <a class="show_more_button" id="show_more_button_up" href="javascript:;">
+               <span class="btn-left-up" id="showMoreLeft-up"/>
+
+               <span class="btn-middle" id="showMoreMiddle-up"/>
+
+               <span class="btn-right" id="showMoreRight-up"/>
+
+        </a>
+        
+      </div>
+
+         <div class="show_more_button_div" id="show_more_search_button_up_div" style="display: none;">
+            <a class="show_more_button" id="show_more_search_button_up" href="javascript:;">
+               <span class="btn-left-up" id="showMoreLeft-Search-up"/>
+
+               <span class="btn-middle" id="showMoreMiddle-Search-up"/>
+
+               <span class="btn-right" id="showMoreRight-Search-up"/>
+
+        </a>
+        
+      </div>
+
+           <div class="messageNoResult_class" id="messageNoResults_div" style="display: none;">
+                <span id="messageNoResults_text_1"/>
+    <br/>
+
+                <span id="messageNoResults_text_2"/>
+
+        </div>
+
+           <div class="messageTableDiv" id="messageTableDiv">
+    <table class="messageTable" id="messageTable">
+     <colgroup>
+      <col/>
+      <col width="89" id="timeStampCol"/>
+     </colgroup>
+     <tbody id="messageTableBody">
+      <tr class="hiddenRow">
+       <td/>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="firstGroupName">
+       <td class="dateRollover" id="msg_id_2" colspan="2">Monday, July 10, 2017</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_1">Welcome. You are now in the group chat</td>
+       <td title="undefined" class="timeStamp"/>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_3">Chawanda Wilson joined</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:16 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_4">Aishah Rahman joined</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:16 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_5">Tina Melson joined</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:16 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_6">Peggy Ford joined</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:16 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_7">Jennifer Watson joined</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:16 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_8">Carolyn Duke joined</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:16 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_9">Lindsey Akers joined</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:16 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_10">Melody Belland joined</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:16 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_11">Gamel Dixon joined</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:16 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_12">Audra Castellanos joined</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:16 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_13">Kelly Lind joined</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:16 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_15_dividerLine">
+       <td id="msg_id_15" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_15" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_14">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>
+          <a href="http://compass.repsrv.com/DivisionalDocuments/A06-South/DIV_853_4852_Billing_and_Collection_Information.html">http://compass.repsrv.com/DivisionalDocuments/A06-South/DIV_853_4852_Billing_and_Collection_Information.html</a>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:05 AM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_16">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>so 9</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:05 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_18_dividerLine">
+       <td id="msg_id_18" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_18" style="color: rgb(146, 44, 150);">Melody Belland</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_17">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>i asked question earlier. anyone got an answer for it?</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:06 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_20_dividerLine">
+       <td id="msg_id_20" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_20" style="color: rgb(93, 44, 150);">Peggy Ford</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_19">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>This division only have invoice groups 4,5 &amp; 6 for resi correct..?   Kelly fixed some of these for me over the weekend.</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:07 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_22_dividerLine">
+       <td id="msg_id_22" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_22" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_21">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>yes</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:08 AM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_23">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>but this doc shows group 7 8 9</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:08 AM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_24">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>mel im looking</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:08 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_26_dividerLine">
+       <td id="msg_id_26" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_26" style="color: rgb(93, 44, 150);">Peggy Ford</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_25">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>I would do 3425004/7 as Inv Grp 4, 3425005/8 as Inv Grp 5, and 3425006/9 as Inv Grp 6...</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:09 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_28_dividerLine">
+       <td id="msg_id_28" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_28" style="color: rgb(146, 44, 150);">Melody Belland</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_27">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>ok</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:09 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_30_dividerLine">
+       <td id="msg_id_30" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_30" style="color: rgb(93, 44, 150);">Peggy Ford</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_29">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>Kelly can you look at Audra's question.... this is like the ones you fixed for me over the weekend.</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:09 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_32_dividerLine">
+       <td id="msg_id_32" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_32" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_31">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>mel i wou;ld say these are different  high med low rate</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:10 AM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_33">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>but the codes are dif for district</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:11 AM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_34">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>i would say either make a line for each our reach out to th div</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:13 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_36_dividerLine">
+       <td id="msg_id_36" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_36" style="color: rgb(146, 44, 150);">Melody Belland</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_35">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>ok thanks</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:16 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_38_dividerLine">
+       <td id="msg_id_38" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_38" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_37">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>im sorry i dont have a better answer</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:16 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_90">Tina Melson left</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:31 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_91">Kelly Lind left</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:31 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_92">Kelly Lind joined</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:31 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_99">Tina Melson joined</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:44 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_100">Lettice Grant-Brooks joined</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:44 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_101">Sherica Goodner joined</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:46 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_104_dividerLine">
+       <td id="msg_id_104" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_104" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_103">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>
+          <a href="http://compass.repsrv.com/DivisionalDocuments/A06-South/DIV_853_4852_HOA_Candlelight_Hills_Spring_TX.html">http://compass.repsrv.com/DivisionalDocuments/A06-South/DIV_853_4852_HOA_Candlelight_Hills_Spring_TX.html</a>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:53 AM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_105">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>is this one 9?</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:54 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_109_dividerLine">
+       <td id="msg_id_109" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_109" style="color: rgb(93, 44, 150);">Peggy Ford</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_108">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>nope, just like the other one.</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:54 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_114_dividerLine">
+       <td id="msg_id_114" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_114" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_113">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>ok</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">8:54 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_117">Sherica Goodner left</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:00 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_119_dividerLine">
+       <td id="msg_id_119" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_119" style="color: rgb(93, 44, 150);">Peggy Ford</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_118">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>off to lunch...</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:07 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_121_dividerLine">
+       <td id="msg_id_121" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_121" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_120">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>enjoy</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:07 AM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_122">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>wheres my amy?</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:07 AM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_123">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>not here yet ?</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:07 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_126_dividerLine">
+       <td id="msg_id_126" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_126" style="color: rgb(22, 136, 79);">Chris Mcfarland</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_125">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>She just ambled in.</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:09 AM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_127">Amy Jorgensen joined</td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:11 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_129_dividerLine">
+       <td id="msg_id_129" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_129" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_128">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>whoohoo its a party now</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:18 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_131_dividerLine">
+       <td id="msg_id_131" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_131" style="color: rgb(93, 44, 150);">Amy Jorgensen</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_130">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>Yee haw           <img title=";)" src="file:///C:/Program Files (x86)/Cisco Systems/Cisco Jabber/Emoticons/wink.png"/>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:18 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_133_dividerLine">
+       <td id="msg_id_133" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_133" style="color: rgb(150, 146, 44);">Lindsey Akers</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_132">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>
+          <img title="(CAKE)" src="file:///C:/Program Files (x86)/Cisco Systems/Cisco Jabber/Emoticons/cake.png"/>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:18 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_135_dividerLine">
+       <td id="msg_id_135" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_135" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_134">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>I got a treadmill for my birthday</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:19 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_137_dividerLine">
+       <td id="msg_id_137" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_137" style="color: rgb(93, 44, 150);">Amy Jorgensen</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_136">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>woo hoo</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:19 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_139_dividerLine">
+       <td id="msg_id_139" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_139" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_138">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>
+          <img title=":(" src="file:///C:/Program Files (x86)/Cisco Systems/Cisco Jabber/Emoticons/sad.png"/>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:19 AM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_140">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>someone tryign to tell me somethign</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:19 AM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_141">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>lol</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:19 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_143_dividerLine">
+       <td id="msg_id_143" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_143" style="color: rgb(93, 44, 150);">Amy Jorgensen</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_142">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>Did you ask for one?</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:19 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_145_dividerLine">
+       <td id="msg_id_145" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_145" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_144">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>i wanted one so yes</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:19 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_147_dividerLine">
+       <td id="msg_id_147" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_147" style="color: rgb(93, 44, 150);">Amy Jorgensen</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_146">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>then that is not so bad</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:20 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_149_dividerLine">
+       <td id="msg_id_149" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_149" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_148">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>not at all</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:20 AM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_150">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>if you run outside in az you WILL die, most def</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:20 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_152_dividerLine">
+       <td id="msg_id_152" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_152" style="color: rgb(93, 44, 150);">Amy Jorgensen</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_151">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>I can imagine... if anyone ever sees me running, they should probably start running too - it means something has gone very wrong           <img title=";)" src="file:///C:/Program Files (x86)/Cisco Systems/Cisco Jabber/Emoticons/wink.png"/>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:21 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_154_dividerLine">
+       <td id="msg_id_154" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_154" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_153">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>lol right</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:21 AM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_155">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>my kid called it a running machine</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:21 AM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_156">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>lol</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:21 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_158_dividerLine">
+       <td id="msg_id_158" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_158" style="color: rgb(93, 44, 150);">Amy Jorgensen</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_157">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>
+          <img title=":)" src="file:///C:/Program Files (x86)/Cisco Systems/Cisco Jabber/Emoticons/smile.png"/>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">9:21 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_160_dividerLine">
+       <td id="msg_id_160" colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_160" style="color: rgb(93, 44, 150);">Peggy Ford</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_159">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>Good news!  All SOUTH docs have been QC'd and either submitted or placed in folder waiting for info           <img title=":)" src="file:///C:/Program Files (x86)/Cisco Systems/Cisco Jabber/Emoticons/smile.png"/>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">11:30 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_162_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_162" style="color: rgb(44, 48, 150);">Carolyn Duke</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_161">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>YAY!!!!!!</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">11:30 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_164_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_164" style="color: rgb(93, 44, 150);">Amy Jorgensen</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_163">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>Awesome!!!</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">11:31 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_166_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_166" style="color: rgb(44, 48, 150);">Carolyn Duke</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_165">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>That's AWESOME!!</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">11:31 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_168_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_168" style="color: rgb(93, 44, 150);">Peggy Ford</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_167">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>Carolyn do you want me to move on to Heartland data entry or do you want me to QC somewhere else?</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">11:33 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_170_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_170" style="color: rgb(44, 48, 150);">Carolyn Duke</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_169">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>Either in the Midwest or Heartland</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">11:33 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_172_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_172" style="color: rgb(93, 44, 150);">Peggy Ford</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_171">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>K</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">11:34 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_174_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_174" style="color: rgb(146, 44, 150);">Melody Belland</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_173">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>peggy im still working on 394 for you.</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">11:34 AM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_176_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_176" style="color: rgb(93, 44, 150);">Peggy Ford</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_175">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>Just checking in to see if I am losing my mind..... Isnt this summary routed?            <a href="http://compass.repsrv.com/DivisionalDocuments/A05-Midwest/DIV_930_MUNI_Prairie_Farm_WI.html">http://compass.repsrv.com/DivisionalDocuments/A05-Midwest/DIV_930_MUNI_Prairie_Farm_WI.html</a>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">12:14 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_178_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_178" style="color: rgb(150, 146, 44);">Lindsey Akers</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_177">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>yes</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">12:14 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_180_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_180" style="color: rgb(93, 44, 150);">Peggy Ford</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_179">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>thanks</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">12:15 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_182_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_182" style="color: rgb(150, 146, 44);">Lindsey Akers</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_181">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>they are supposed to be submitting updates to all of these templates where they put pricing that they actually charge the muni</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">12:15 PM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_183">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>pricing shouldn't be in there</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">12:15 PM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_184">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>if you have a lot of these feel free to send me a list so I can go in and update</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">12:15 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_186_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_186" style="color: rgb(93, 44, 150);">Peggy Ford</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_185">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>will do!</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">12:15 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_188_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_188" style="color: rgb(150, 146, 44);">Lindsey Akers</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_187">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>thank ya!</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">12:16 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_190_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_190" style="color: rgb(93, 44, 150);">Peggy Ford</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_189">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>
+          <a href="http://compass.repsrv.com/DivisionalDocuments/A05-Midwest/DIV_930_MUNI_Rice_Lake_WI.html">http://compass.repsrv.com/DivisionalDocuments/A05-Midwest/DIV_930_MUNI_Rice_Lake_WI.html</a>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">12:19 PM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_191">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>sorry - that was Lindsey to update....</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">12:19 PM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_192">Carolyn Duke left</td>
+       <td class="timeStamp">12:21 PM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_193">Carolyn Duke joined</td>
+       <td class="timeStamp">12:21 PM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_194">Chawanda Wilson left</td>
+       <td class="timeStamp">12:53 PM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_195">Tina Melson left</td>
+       <td class="timeStamp">1:17 PM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_196">Lettice Grant-Brooks left</td>
+       <td class="timeStamp">1:28 PM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_197">Carolyn Duke left</td>
+       <td class="timeStamp">1:31 PM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_198">Carolyn Duke joined</td>
+       <td class="timeStamp">1:31 PM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_199">Carolyn Duke left</td>
+       <td class="timeStamp">1:33 PM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_200">Jennifer Watson left</td>
+       <td class="timeStamp">1:41 PM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_201">Aishah Rahman left</td>
+       <td class="timeStamp">1:44 PM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_202">Melody Belland left</td>
+       <td class="timeStamp">1:49 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_204_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_204" style="color: rgb(93, 44, 150);">Peggy Ford</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_203">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>ok folks, I will chat with you tomorrow.  I will be in early but then have to leave for a short appointment.  Have a good night all.</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">1:53 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_206_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_206" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_205">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>night !</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">1:53 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_208_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_208" style="color: rgb(93, 44, 150);">Amy Jorgensen</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_207">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>see you tomorrow</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">1:53 PM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_209">Peggy Ford left</td>
+       <td class="timeStamp">1:55 PM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_210">Carolyn Duke joined</td>
+       <td class="timeStamp">2:01 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_212_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_212" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_211">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>quiet today</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:06 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_214_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_214" style="color: rgb(93, 44, 150);">Amy Jorgensen</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_213">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>I know - guess everyone has it all figured out           <img title=":)" src="file:///C:/Program Files (x86)/Cisco Systems/Cisco Jabber/Emoticons/smile.png"/>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:06 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_216_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_216" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_215">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>its about time</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:06 PM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_217">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>
+          <img title=":'-)" src="file:///C:/Program Files (x86)/Cisco Systems/Cisco Jabber/Emoticons/crying-laugh.png"/>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:06 PM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_218">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>im glad someone does</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:07 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_220_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_220" style="color: rgb(93, 44, 150);">Amy Jorgensen</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_219">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>
+          <img title=":-O" src="file:///C:/Program Files (x86)/Cisco Systems/Cisco Jabber/Emoticons/bigsurprise.png"/>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:07 PM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_221">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>lol</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:07 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_224_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_224" style="color: rgb(22, 136, 79);">Chris Mcfarland</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_223">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>
+          <a href="http://media1.s-nbcnews.com/j/newscms/2016_13/1031636/too_quiet_f4ee272d6d4309bfc1269765476b824e.today-inline-large.jpg">http://media1.s-nbcnews.com/j/newscms/2016_13/1031636/too_quiet_f4ee272d6d4309bfc1269765476b824e.today-inline-large.jpg</a>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:07 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_226_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_226" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_225">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>my brain still hurts</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:07 PM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_227">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>
+          <a href="http://compass.repsrv.com/DivisionalDocuments/A01-Northwest/DIV_456_FRAN_Marion_County_OR_Area_19.html">http://compass.repsrv.com/DivisionalDocuments/A01-Northwest/DIV_456_FRAN_Marion_County_OR_Area_19.html</a>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:07 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_229_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_229" style="color: rgb(93, 44, 150);">Amy Jorgensen</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_228">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>Luckily we are all adults           <img title=";)" src="file:///C:/Program Files (x86)/Cisco Systems/Cisco Jabber/Emoticons/wink.png"/>
+ '@chris</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:09 PM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_230">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>Ouch, Audra I can see why</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:09 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_232_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_232" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_231">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>oh speak for your self amy</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:09 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_234_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_234" style="color: rgb(93, 44, 150);">Amy Jorgensen</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_233">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>chronological adults ;P</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:10 PM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_235">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>
+          <img title=":P" src="file:///C:/Program Files (x86)/Cisco Systems/Cisco Jabber/Emoticons/tongue.png"/>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:10 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_237_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_237" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_236">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>i only adult on paydays when bills have to be paid</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:10 PM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_238">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>lol</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:10 PM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_239">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>well i guess on days that end in y  i adult on those days too</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:10 PM</td>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_240">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>dang it</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:10 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_242_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_242" style="color: rgb(93, 44, 150);">Amy Jorgensen</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_241">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>it can't be helped</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:10 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_244_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_244" style="color: rgb(150, 44, 100);">Audra Castellanos</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_243">
+        <span style="color: rgb(166, 23, 112); font-family: Courier New; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">
+         <div>i wish someone else would adult for me - than i could just do fun stuff</div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:13 PM</td>
+      </tr>
+      <tr class="dividerLine" id="msg_id_246_dividerLine">
+       <td colspan="2"/>
+      </tr>
+      <tr class="groupName">
+       <td class="buddyName" id="msg_id_246" style="color: rgb(93, 44, 150);">Amy Jorgensen</td>
+       <td class="timeStamp"/>
+      </tr>
+      <tr class="msg">
+       <td class="msgText normalMsgText" id="msg_id_245">
+        <span style="color: rgb(26, 26, 26); font-family: Segoe UI; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">
+         <div>
+          <img title=":)" src="file:///C:/Program Files (x86)/Cisco Systems/Cisco Jabber/Emoticons/smile.png"/>
+         </div>
+        </span>
+       </td>
+       <td title="Monday, July 10, 2017" class="timeStamp">2:13 PM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_247">Gamel Dixon left</td>
+       <td class="timeStamp">3:01 PM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_248">Carolyn Duke left</td>
+       <td class="timeStamp">3:53 PM</td>
+      </tr>
+      <tr class="groupName">
+       <td class="msgText partyMsgText" id="msg_id_249">Amy Jorgensen left</td>
+       <td class="timeStamp">4:25 PM</td>
+      </tr>
+     </tbody>
+    </table>
+   </div>
+
+         <div class="show_more_button_div" id="show_more_button_down_div" style="display: none;">
+            <a class="show_more_button" id="show_more_button_down" href="javascript:;">
+               <span class="btn-left-down" id="showMoreLeft-down"/>
+
+               <span class="btn-middle" id="showMoreMiddle-down"/>
+
+               <span class="btn-right" id="showMoreRight-down"/>
+
+        </a>
+        
+      </div>
+
+         <div class="show_more_button_div" id="show_more_search_button_down_div" style="display: none;">
+            <a class="show_more_button" id="show_more_search_button_down" href="javascript:;">
+               <span class="btn-left-down" id="showMoreLeft-Search-down"/>
+
+               <span class="btn-middle" id="showMoreMiddle-Search-down"/>
+
+               <span class="btn-right" id="showMoreRight-Search-down"/>
+
+        </a>
+
+      </div>
+
+         <div class="show_more_button_div" id="show_most_recent_search_button_div" style="display: none;">
+            <a class="show_more_button" id="show_most_recent_search_button" href="javascript:;">
+               <span class="btn-most-recent-left" id="showMostRecentLeft-Search-down"/>
+
+               <span class="btn-middle" id="showMostRecentMiddle-Search-down"/>
+
+               <span class="btn-right" id="showMostRecentRight-Search-down"/>
+
+        </a>
+        
+      </div>
+
+    </div>
+
+
+
+</body>
+</html>

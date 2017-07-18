@@ -1,0 +1,610 @@
+DIV,Lawson,City,State,County,Zip Code,County Tax Code,Tax Rate %,Resi Tax Code,IND Tax Code,TERR Code,Other Code,Disposal Code,Residential,"Residential Recycling",Yard Waste,Commercial,"Commercial Recycling",Industrial,Industrial Recycling,Acquisition Code,Admin Fee,Rate Tax App Code,Other Code - Business Center,Notes
+092,4091,Angola,IN,Steuben,46703,,,0,0,"003 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Butler,IN,Dekalb,46721,,,0,0,"003 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Fremont,IN,Steuben,46737,,,0,0,"003 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Hamilton,IN,Hamilton,46742,,,0,0,"003 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Addison,MI,Lenawee,49220,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,4091,7A,N/A,11,70,21,,,,,,
+092,4091,Brooklyn,MI,Jackson,49230,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Camden,MI,Hillsdale,49232,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Cement City,MI,Lenawee,49233,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Clayton,MI,Lenawee,49235,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Hillsdale,MI,Hillsdale,49242,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Hudson,MI,Lenawee,49247,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Jasper,MI,Lenawee,49248,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Jerome,MI,Midland,49249,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Montgomery,MI,Hillsdale,49255,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Morenci,MI,Lenawee,49256,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,North Adams,MI,Hillsdale,49262,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Osseo,MI,Hillsdale,49266,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Pittsford,MI,Hillsdale,49271,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Reading,MI,Hillsdale,49274,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Sand Creek,MI,Lenawee,49279,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Waldron,MI,Hillsdale,49288,,,0,0,"002 - Comm & Ind
+ 711 - Residential",N/A,WC-06 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Alvordton,OH,Williams,43501,,,9101,9101,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Archbold,OH,Fulton,43502,,,9110,9110,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Bryan,OH,Williams,43506,,,9101,9101,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Defiance,OH,Defiance,43512,,,9112,9112,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Delta,OH,Fulton,43515,,,9110,9110,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Edgerton,OH,Williams,43517,,,9101,9101,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Edon,OH,Williams,43518,,,9101,9101,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Fayette,OH,Fayette,43521,,,9101,9101,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Hicksville,OH,Defiance,43526,,,9112,9112,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Holgate,OH,Henry,43527,,,9106,9106,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Liberty Center,OH,Henry,43532,,,9106,9106,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Lyons,OH,Fulton,43533,,,9110,9110,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Metamora,OH,Fulton,43540,,,9110,9110,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Montpelier,OH,Williams,43543,,,9101,9101,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Napoleon,OH,Henry,43545,,,9106,9106,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,New Bavaria,OH,Henry,43548,,,9106,9106,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Ney,OH,Defiance,43549,,,9112,9112,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Pioneer,OH,Williams,43554,,,9101,9101,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Ridgeville Corners,OH,Henry,43555,,,9106,9106,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Stryker,OH,Williams,43557,,,9101,9101,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Swanton,OH,Fulton,43558,,,9110,9110,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,Wauseon,OH,Fulton,43567,,,9110,9110,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+092,4091,West Unity,OH,Williams,43570,,,9101,9101,"001 - Comm & Ind
+ 711 - Residential",N/A,WC02 - SW & C&D,31,7A,N/A,11,70,21,,,,,,
+270,4270,Addison,MI,Lenawee,49220,,,0,0,1,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+270,4270,Adrian,MI,Lenawee,49221,,,0,0,221,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+270,4270,Blissfield,MI,Lenawee,49228,,,0,0,228,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+270,4270,Britton,MI,Lenawee,49229,,,0,0,102,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+270,4270,Carleton,MI,Monroe,48117,,,0,0,883,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+270,4270,Chelsea,MI,Washtenaw,48118,,,0,0,256,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+270,4270,Clinton,MI,Lenawee,48035,,,0,0,412,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+270,4270,Deerfield,MI,Lenawee,49238,,,0,0,434,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+270,4270,Jasper,MI,Lenawee,49248,,,0,0,512,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+270,4270,Manchester,MI,Washtenaw,48158,,,0,0,528,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+270,4270,Manitou Beach,MI,Lenawee,49253,,,0,0,537,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+270,4270,Onsted,MI,Lenawee,49265,,,0,0,555,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+270,4270,Palmyra,MI,Lenawee,49268,,,0,0,560,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+270,4270,Saline,MI,Washtenaw,48176,,,0,0,618,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+270,4270,Sand Creek,MI,Lenawee,49279,,,0,0,619,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+270,4270,Tecumseh,MI,Lenawee,49286,,,0,0,86,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+270,4270,Tipton,MI,Lenawee,49287,,,0,0,883,N/A,"CF03 ƒ?? Industrial
+ CF04 ƒ?? Commercial
+ GR01 - Cardboard",32,7A,7B,12,70,22,,,,,,
+384,4384,Adena,OH,Belmont,43901,,,0,0,300,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Alledonia,OH,Belmont,43902,,,0,0,300,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Barton,OH,Belmont,43905,,,0,0,300,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Beallsville,OH,Monroe,43716,,,0,0,300,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Bellaire,OH,Belmont,43906,,,0,0,300,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Belmont,OH,Belmont,43718,,,0,0,300,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Bethesda,OH,Belmont,43719,,,0,0,300,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Bloomingdale,OH,Jefferson,43910,,,0,0,300,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Bridgeport,OH,Belmont,43912,,,0,0,300,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,Brilliant,OH,Jefferson,43913,,,0,0,300,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",N/A,N/A,N/A,10,70,20,,,,,,
+384,4384,Cadiz,OH,Harrison,43907,,,0,0,300,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Clarington,OH,Monroe,43915,,,0,0,300,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Colerain,OH,Belmont,43916,,,0,0,300,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Dillonvale,OH,Jefferson,43917,,,0,0,300,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Flushing,OH,Belmont,43977,,,0,0,300,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Hannibal,OH,Monroe,43931,,,0,0,300,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Harrisville,OH,Harrison,43974,,,0,0,300,,NF11,N/A,N/A,N/A,10,70,20,,,,,,
+384,4384,Hopedale,OH,Harrison,43976,,,0,0,300,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Jacobsburg,OH,Belmont,43933,,,0,0,300,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Lansing,OH,Belmont,43934,,,0,0,300,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Martins Ferry,OH,Belmont,43935,,,0,0,300,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,Mingo Junction,OH,Jefferson,43938,,,0,0,300,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Neffs,OH,Belmont,43940,,,0,0,300,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,New Athens,OH,Harrison,43981,,,0,0,300,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Powhatan Point,OH,Belmont,43942,,,0,0,300,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Rayland,OH,Jefferson,43943,,,0,0,300,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Richmond,OH,Jefferson,43944,,,0,0,300,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Saint Clairville,OH,Belmont,43950,,,0,0,300,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Shadyside,OH,Belmont,43947,,,0,0,300,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,St Clairsville,OH,Belmont,43950,,,0,0,300,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,Steubenville,OH,Jefferson,"43952, 43953",,,0,0,300,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",N/A,N/A,N/A,10,70,20,,,,,,
+384,4384,Tiltonsville,OH,Jefferson,43963,,,0,0,300,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Toronto,OH,Jefferson,43964,,,0,0,300,,NF11,N/A,N/A,N/A,10,70,20,,,,,,
+384,4384,Wintersville,OH,Jefferson,43953,,,0,0,300,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,Yorkville,OH,Jefferson,43971,,,0,0,300,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Avella,PA,Washington,15312,,,0,0,200,,NF11,N/A,N/A,N/A,10,70,20,,,,,,
+384,4384,Canonsburg,PA,Washington,15317,,,0,0,200,,NF11,N/A,N/A,N/A,N/A,N/A,N/A,,,,,,
+384,4384,Claysville,PA,Washington,15323,,,0,0,200,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",N/A,N/A,N/A,10,70,20,,,,,,
+384,4384,Paris,PA,Washington,15554,,,0,0,200,,NF11,N/A,N/A,N/A,10,70,20,,,,,,
+384,4384,Prosperity,PA,Washington,15329,,,0,0,200,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Sycamore,PA,Washington,15364,,,0,0,200,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Taylorstown,PA,Washington,15323,,,0,0,200,,NF11,N/A,N/A,N/A,10,70,20,,,,,,
+384,4384,Washington,PA,Washington,15301,,,0,0,200,,NF11,N/A,N/A,N/A,10,70,20,,,,,,
+384,4384,West Alexander,PA,Washington,15376,,,0,0,200,,NF11,N/A,N/A,N/A,10,70,20,,,,,,
+384,4384,West Finley,PA,Washington,15377,,,0,0,200,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Windridge,PA,Washington,15380,,,0,0,200,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Beech Bottom,WV,Brooke,26030,,,0,0,100,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,Benwood,WV,Marshall,26031,,,0,0,100,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,Bethany,WV,Brooke,26032,,,0,0,100,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,Bethlehem,WV,Ohio,26003,,,0,0,100,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Cameron,WV,Marshall,26033,,,0,0,100,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Chester,WV,Hancock,26034,,,0,0,100,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Colliers,WV,Hancock,26035,,,0,0,100,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Dallas,WV,Marshall,26036,,,0,0,100,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Elm Grove,WV,Ohio,26003,,,0,0,100,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Follansbee,WV,Brooke,26037,,,0,0,100,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,Glen Dale,WV,Marshall,26038,,,0,0,100,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,Glen Easton,WV,Marshall,26039,,,0,0,100,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Mc Mechen,WV,Marshall,26040,,,0,0,100,,NF11,N/A,N/A,N/A,10,70,20,,,,,,
+384,4384,McMechen,WV,Marshall,26040,,,0,0,100,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,Moundsville,WV,Marshall,26041,,,0,0,100,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,Mouundsville,WV,Marshall,26041,,,0,0,100,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,New Martinsville,WV,Wetzel,26155,,,0,0,100,,NF11,N/A,N/A,N/A,N/A,N/A,20,,,,,,
+384,4384,Newell,WV,Hancock,26050,,,0,0,100,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Proctor,WV,Marshall,26055,,,0,0,100,,NF11,30,N/A,N/A,10,70,20,,,,,,
+384,4384,Short Creek,WV,Brooke,26058,,,0,0,100,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,Triadelphia,WV,Ohio,26059,,,0,0,100,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,Valley Grove,WV,Ohio,26060,,,0,0,100,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,Weirton,WV,Hancock,26062,,,0,0,100,,NF11,N/A,N/A,N/A,10,70,20,,,,,,
+384,4384,Wellsburg,WV,Brooke,26070,,,0,0,100,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,West Liberty,WV,Ohio,26074,,,0,0,100,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,Wheeling,WV,Ohio,26003,,,0,0,100,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+384,4384,Windsor Heights,WV,Brooke,26075,,,0,0,100,,"NF11 - SW
+ EL03 - RCY
+ EL04 - OCC",30,N/A,N/A,10,70,20,,,,,,
+388,4388,Ada (MUNI),OH,Hardin,45810,,,3304,N/A,13,,WC 07 - Solid Waste,31,7A,N/A,12,70,20,71,,,,,
+388,4388,Ada (OM),OH,Hardin,45810,,,3304,N/A,13,,WC 07 - Solid Waste,30,N/A,N/A,12,70,20,71,,,,,
+388,4388,Alvada,OH,Seneca,44802,,,7404,N/A,12,,WC 15 - Solid Waste,30,N/A,N/A,12,70,20,71,,,,,
+388,4388,Arcadia,OH,Hancock,44804,,,3202,N/A,14,,HC 00 - Solid Waste,N/A,N/A,N/A,12,70,20,71,,,,,
+388,4388,Arlington,OH,Hancock,45814,,,3202,N/A,14,,HC 00 - Solid Waste,30,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Attica,OH,Seneca,44807,,,7404,N/A,12,,WC 15 - Solid Waste,30,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Bascom,OH,Seneca,44809,,,7404,N/A,12,,WC 15 - Solid Waste,30,N/A,N/A,12,70,20,71,,,,,
+388,4388,Benton Ridge,OH,Hancock,45816,,,3304,N/A,14,,HC 00 - Solid Waste,N/A,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Bettsville,OH,Seneca,44815,,,7404,N/A,12,,WC 15 - Solid Waste,30,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Bloomville,OH,Seneca,44818,,,7404,N/A,12,,WC 15 - Solid Waste,30,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Bluffton (MUNI),OH,Allen,45817,,,204,N/A,18,,WC 25 - Solid Waste,31,7A,N/A,12,70,20,71,,,,,
+388,4388,Bluffton (OM),OH,Allen,45817,,,204,N/A,18,,WC25 - Solid Waste,30,N/A,N/A,12,70,20,71,,,,,
+388,4388,Cairo,OH,Allen,45820,,,204,N/A,18,,WC25 - Solid Waste,30,N/A,N/A,12,70,20,71,,,,,
+388,4388,Carey,OH,Wyandot,43316,,,8804,N/A,15,,WC 20 - Solid Waste,30,N/A,N/A,12,70,20,71,,,,,
+388,4388,Celina,OH,Mercer,45822,,,901,N/A,201,,CL 01 - Solid Waste,33,N/A,N/A,13,73,23,72,,,,,
+388,4388,Coldwater,OH,Mercer,45828,,,912,N/A,201,,CL 01 - Solid Waste,33,N/A,N/A,13,73,23,72,,,,,
+388,4388,Columbus Grove,OH,Putnam,45830,,,5905,N/A,18,,WC 28 - Solid Waste,N/A,N/A,N/A,N/A,N/A,20,71,,,,,
+388,4388,Cridersville,OH,Allen,45807,,,204,N/A,18,,WC 25 - Solid Waste,30,N/A,N/A,12,70,20,71,,,,,
+388,4388,Delphos,OH,Allen,45833,,,204,N/A,18,,WC 25 - Solid Waste,N/A,N/A,N/A,12,70,20,71,,,,,
+388,4388,Dunkirk,OH,Hardin,45836,,,3304,N/A,13,,WC 07 - Solid Waste,30,N/A,N/A,12,70,20,71,,,,,
+388,4388,Elida,OH,Allen,45807,,,204,N/A,18,,WC 25 - Solid Waste,30,N/A,N/A,12,70,20,71,,,,,
+388,4388,Findlay,OH,Hancock,45840,,,3202,N/A,14,,HC 00 - Solid Waste,30,N/A,N/A,12,70,20,71,,,,,
+388,4388,Forest,OH,Hardin,45843,,,3304,N/A,13,,WC 07 - Solid Waste,30,N/A,N/A,12,70,20,71,,,,,
+388,4388,Fort Recovery,OH,Mercer,45846,,,907,N/A,82,,CL 01 - Solid Waste,N/A,N/A,N/A,N/A,N/A,23,72,,,,,
+388,4388,Fostoria,OH,Seneca/Hancock,44830,,,3202,N/A,12,,WC 15 - Solid Waste,30,N/A,N/A,12,70,20,71,,,,,
+388,4388,Glandorf,OH,Putnam,45848,,,5905,N/A,18,,WC 28 - Solid Waste,N/A,N/A,N/A,N/A,N/A,20,71,,,,,
+388,4388,Grand Manor,OH,Mercer,45822,,,907,N/A,201,,CL 01 - Solid Waste,33,N/A,N/A,N/A,N/A,23,72,,,,,
+388,4388,Harrod,OH,Allen,45850,,,204,N/A,18,,WC25 - Solid Waste,N/A,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Jenera,OH,Hancock,45841,,,3202,N/A,14,,HC 00 - Solid Waste,30,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Kalida,OH,Putnam,45853,,,6805,N/A,18,,WC 28 - Solid Waste,N/A,N/A,N/A,N/A,N/A,20,71,,,,,
+388,4388,Leipsic,OH,Putnam,45856,,,6905,N/A,18,,WC 28 - Solid Waste,N/A,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Lima,OH,Allen,"45801, 45802, 45803, 45804, 45805, 45806, 45807",,,204,N/A,18,,WC 25 - Solid Waste,30,N/A,N/A,12,70,20,71,,,,,
+388,4388,Maria Stein,OH,Mercer,45860,,,916,N/A,201,,CL 01 - Solid Waste,33,N/A,N/A,13,73,23,72,,,,,
+388,4388,Marion,OH,Marion,"43301, 43302, 43306, 43307",,,5104,N/A,17,,WC29 - Solid Waste,N/A,N/A,N/A,12,70,20,71,,,,,
+388,4388,McComb,OH,Hancock,45858,,,3202,N/A,14,,HC 00 - Solid Waste,N/A,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,McCutchenville,OH,Wyandot,44844,,,8804,N/A,15,,WC 20 - Solid Waste,30,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Melmore,OH,Seneca,44845,,,7404,N/A,12,,WC 15 - Solid Waste,30,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Mendon,OH,Mercer,45862,,,940,N/A,201,,CL 01 - Solid Waste,33,N/A,N/A,13,N/A,23,72,,,,,
+388,4388,Minster,OH,Auglaize,45865,,,902,N/A,202,,CL 03 - Solid Waste,33,N/A,N/A,13,73,23,72,,,,,
+388,4388,Montezuma,OH,Mercer,45866,,,909,N/A,201,,CL 01 - Solid Waste,33,N/A,N/A,13,73,23,72,,,,,
+388,4388,Mt Blanchard,OH,Hancock,45867,,,3202,N/A,14,,HC 00 - Solid Waste,30,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Mt. Cory,OH,Hancock,45868,,,3202,N/A,14,,HC 00 - Solid Waste,30,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Nevada,OH,Wyandot,44849,,,8804,N/A,15,,WC 20 - Solid Waste,30,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,New Bremen,OH,Auglaize,45869,,,910,N/A,202,,CL 03 - Solid Waste,33,N/A,N/A,13,73,23,72,,,,,
+388,4388,New Knoxville,OH,Auglaize,45871,,,924,N/A,202,,CL 03 - Solid Waste,33,N/A,N/A,13,73,23,72,,,,,
+388,4388,New Reigal,OH,Seneca,44853,,,7404,N/A,12,,WC 15 - Solid Waste,30,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Old Fort,OH,Seneca,44861,,,7404,N/A,12,,WC 15 - Solid Waste,N/A,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Ottawa (OM),OH,Putnam,45875,,,6905,N/A,18,,WC 28 - Solid Waste,30,N/A,N/A,12,70,20,71,,,,,
+388,4388,Ottoville,OH,Putnam,45876,,,6905,N/A,18,,WC28 - Solid Wate,N/A,N/A,N/A,N/A,N/A,20,71,,,,,
+388,4388,Rawson,OH,Hancock,45881,,,3202,N/A,14,,HC 00 - Solid Waste,30,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Republic,OH,Seneca,44867,,,7404,N/A,12,,WC 15 - Solid Waste,30,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Rockford,OH,Mercer,45882,,,947,N/A,201,,CL 01 - Solid Waste,N/A,N/A,N/A,N/A,N/A,23,72,,,,,
+388,4388,Spencerville,OH,Allen,45887,,,204,N/A,18,,WC 25 - Solid Waste,30,N/A,N/A,12,70,23,72,,,,,
+388,4388,St Henry,OH,Mercer,45883,,,906,N/A,201,,CL 03 - Solid Waste,N/A,N/A,N/A,N/A,N/A,23,72,,,,,
+388,4388,St Marys,OH,Auglaize,45885,,,919,N/A,202,,CL 03 - Solid Waste,33,N/A,N/A,13,73,23,72,,,,,
+388,4388,Sycamore,OH,Wyandot,44882,,,8804,N/A,15,,WC 20 - Solid Waste,30,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Tiffin (MUNI),OH,Seneca,44883,,,7404,N/A,12,,WC 15 - Solid Waste,31,7A,N/A,12,70,20,71,,,,,
+388,4388,Tiffin (OM),OH,Seneca,44883,,,7404,N/A,12,,WC 15 - Solid Waste,30,N/A,N/A,12,70,20,71,,,,,
+388,4388,Uniopolis,OH,Auglaize,45888,,,919,N/A,202,,CL 03 - Solid Waste,N/A,N/A,N/A,12,70,20,71,,,,,
+388,4388,Upper Sandusky,OH,Wyandot,43351,,,8804,N/A,15,,WC 20 - Solid Waste,30,N/A,N/A,12,70,20,71,,,,,
+388,4388,Van Buren,OH,Hancock,45889,,,3202,N/A,14,,HC 00 - Solid Waste,N/A,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Van Wert,OH,Van Wert,45891,,,8106,N/A,203,,WC18 - Solid Waste,N/A,N/A,N/A,N/A,N/A,20,71,,,,,
+388,4388,Vanlue,OH,Hancock,45890,,,3202,N/A,14,,HC 00 - Solid Waste,30,N/A,N/A,12,N/A,20,71,,,,,
+388,4388,Village of Ottawa (MUNI),OH,Putnam,45875,,,6905,N/A,18,,WC28 - Solid Waste,31,7A,N/A,12,70,20,71,,,,,
+388,4388,Wapakonta,OH,Auglaize,45895,,,923,N/A,202,,CL 03 - Solid Waste,33,N/A,N/A,13,73,23,72,,,,,
+388,4388,Waynesfield,OH,Auglaize,45896,,,923,N/A,83,,CL 03 - Solid Waste,N/A,N/A,N/A,N/A,N/A,20,71,,,,,
+388,4388,Wharton,OH,Wyandot,43359,,,8804,N/A,15,,WC 20 - Solid Waste,30,N/A,N/A,12,N/A,20,71,,,,,
+691,3439,Ballinger City,TX,Runnels County,76821,1000,8.25%,1000,1000,702,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Barnhart,TX,Iron County,76930,1019,6.25%,1019,1019,703,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Big Lake City,TX,Regan County,76932,1002,8.25%,1002,1002,702,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Bronte City,TX,Coke County,76933,1053,8.25%,1053,1053,702,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Brown County,TX,Brown County,76801,1005,6.25%,1005,1005,702,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Carlsbad,TX,Tom Green County,76943,1048,6.75%,1048,1048,701,,SA11,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Christoval,TX,Tom Green County,76935,1048,6.75%,1048,1048,701,,SA11,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Coke County,TX,Coke County,76945,1006,6.25%,1006,1006,708,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Coleman County,TX,Coleman County,76878,1007,6.25%,1007,1007,704,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Concho County,TX,Concho County,76837,1010,6.75%,1010,1010,702,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Crockett County,TX,Crockett County,76943,1011,6.25%,1011,1011,706,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Eden City,TX,Concho County,76837,1014,8.25%,1014,1014,702,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Goodfellow AFB,TX,Tom Green County,76908,1048,6.75%,1048,1048,701,,SA11,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Iron County,TX,Iron County,76941,1019,6.25%,1019,1019,703,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Junction City,TX,Kimble County,76849,1020,8.25%,1020,1020,705,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Kimble County,TX,Kimble County,76849,1022,6.75%,1022,1022,705,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Knickerbocker,TX,Tom Green County,76939,1048,6.75%,1048,1048,701,,SA11,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,"McCullouch County, TX",TX,McCullouch County,76825,1024,7.00%,1024,1024,705,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Melvin,TX,McCullouch County,76859,1058,8.00%,1058,1058,714,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Menard City,TX,Menard County,76859,1026,8.25%,1026,1026,709,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Menard County,TX,Menard County,76859,1025,6.75%,1025,1025,709,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Mereta,TX,Tom Green County,76940,1048,6.75%,1048,1048,701,,SA11,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Mertzon City,TX,Irion County,76941,1027,7.25%,1027,1027,702,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Miles City,TX,Runnels County,76861,1028,8.25%,1028,1028,702,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Ozona City,TX,Crockett County,76943,1031,6.25%,1031,1031,706,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Paint Rock City,TX,Concho County,76866,1032,7.75%,1032,1032,702,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Reagan County,TX,Reagan County,76932,1057,6.75%,1057,1057,702,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Robert Lee City,TX,Coke County,76945,1036,8.25%,1036,1036,708,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Runnels County,TX,Runnels County,76861,1038,6.75%,1038,1038,702,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,San Angelo (Outside City limits),TX,Tom Green County,"76904, 76901, 76903, 76905",1048,6.75%,1048,1048,701,,SA11,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,"San Angelo with FF (Inside City limits, with 5% franchise fee)",TX,Tom Green,"76901, 76902, 76903, 76904, 76905",1039,8.25%,1039,1039,401,,SA01,30,N/A,N/A,10,10,20,Not offered,,,,,
+691,3439,San Saba County,TX,San Saba County,76877,1040,6.75%,1040,1040,702,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Schleicher County,TX,Schleicher County,76936,1041,7.25%,1041,1041,702,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Sonora City,TX,Sutton County,76950,1043,8.25%,1043,1043,709,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Sterling City,TX,Sterling County,76951,1045,7.75%,1045,1045,707,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Sterling County,TX,Sterling County,76951,1044,6.25%,1044,1044,707,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Sutton County,TX,Sutton County,76950,1046,6.25%,1046,1046,709,,SA04,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Vancourt,TX,Tom Green County,76955,1048,6.75%,1048,1048,701,,SA11,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Veribest,TX,Tom Green County,76886,1048,6.75%,1048,1048,701,,SA11,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Wall,TX,Tom Green County,76957,1048,6.75%,1048,1048,701,,SA11,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+691,3439,Water Valley,TX,Tom Green County,76958,1048,6.75%,1048,1048,701,,SA11,12,N/A,N/A,11,N/A,21,Not offered,,,,,
+694,3125,Avoca, IN,Lawrence,47420,,,0,0,420,,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,N/A,N/A,12,N/A,22,N/A,N/A,0,0,,
+694,3125,Beford, IN,Lawrence,47421,,,0,0,421,,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,N/A,N/A,12,N/A,22,N/A,N/A,0,0,,
+694,3125,Bloomington, IN,Monroe,"47401, 47402, 47403, 47404, 47408",,,0,0,"401, 402, 403, 404, 408 (TERR Code goes by last 3 digits of zip code)",,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,32,N/A,12,12,22,N/A,N/A,0,0,,
+694,3125,Carp, IN,Owen,47460,,,0,0,460,,"RH01- COMINGLED
+RH02-MIXED OCC RH03-SW RH04-C&D RH05-Special Waste ",35,7G,N/A,15,75,25,N/A,N/A,0,0,,
+694,3125,Cloverdale, IN,Putman,46120,,,0,0,120,,"RH01- COMINGLED
+RH02-MIXED OCC RH03-SW RH04-C&D RH05-Special Waste ",35,7G,N/A,15,75,25,N/A,N/A,0,0,,
+694,3125,Ellettsville, IN,Monroe,47429,,,0,0,429,,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,32,N/A,12,12,22,N/A,N/A,0,0,,
+694,3125,Gosport, IN,Owen,47433,,,0,0,433,,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,N/A,N/A,12,N/A,22,N/A,N/A,0,0,,
+694,3125,Greencastle, IN,Putnam,46135,,,0,0,135,,"RH01- COMINGLED
+RH02-MIXED OCC RH03-SW RH04-C&D RH05-Special Waste ",35,7G,N/A,15,75,25,N/A,N/A,0,0,,
+694,3125,Harrodsburg, IN,Monroe,47434,,,0,0,434,,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,N/A,N/A,12,N/A,22,N/A,N/A,0,0,,
+694,3125,Martinsville, IN,Morgan,46151,,,0,0,151,,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,N/A,N/A,12,N/A,22,N/A,N/A,0,0,,
+694,3125,Mitchell, IN,Lawrence,47446,,,0,0,446,,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,N/A,N/A,12,N/A,22,N/A,N/A,0,0,,
+694,3125,Morgantown, IN,Morgan,46160,,,0,0,160,,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,N/A,N/A,12,N/A,22,N/A,N/A,0,0,,
+694,3125,Nashville, IN,Brown,47448,,,0,0,448,,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,N/A,N/A,12,N/A,22,N/A,N/A,0,0,,
+694,3125,Norman, IN,"Jackson, IN",47264,,,0,0,264,,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,N/A,N/A,12,N/A,22,N/A,N/A,0,0,,
+694,3125,Oolitic, IN,Lawrence,47451,,,0,0,451,,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,N/A,N/A,12,N/A,22,N/A,N/A,0,0,,
+694,3125,Putnamville, IN,Putman,46170,,,0,0,170,,"RH01- COMINGLED
+RH02-MIXED OCC RH03-SW RH04-C&D RH05-Special Waste ",35,7G,N/A,15,75,25,N/A,N/A,0,0,,
+694,3125,Smithville, IN,Monroe,47458,,,0,0,458,,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,N/A,N/A,12,N/A,22,N/A,N/A,0,0,,
+694,3125,Spencer, In,Owen,47460,,,0,0,460,,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,N/A,N/A,12,N/A,22,N/A,N/A,0,0,,
+694,3125,Springville, IN,Lawrence,47462,,,0,0,462,,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,N/A,N/A,12,N/A,22,N/A,N/A,0,0,,
+694,3125,Stanford, IN,Monroe,47463,,,0,0,463,,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,N/A,N/A,12,N/A,22,N/A,N/A,0,0,,
+694,3125,Williams, IN,Lawrence,47470,,,0,0,470,,BL01-solid waste BL02 Recycle Single Stream BL03 Cardboard ,32,N/A,N/A,12,N/A,22,N/A,N/A,0,0,,
+694,3125,Charlotte, NC,Mecklenburg,"28212, 28213, 28262",,,0,0,60,,"XY01-Solid Waste 
+XY02-C&D",30,7A,7B,10,70,20,20,XY,"Tax Code: 0000
+Tax App: 1","1 - Rental Fee
+0 - All other rates",If Other Code then change Code Title Name ,
+694,3138,Allendale,IL,Wabash,62410,,,1001,1001,410,N/A,SL01-MSW SL03-Special Waste ,31,31,N/A,11,N/A,21,,,,,,
+694,3138,City of Bellmont,IL,Wabash,62811,,,1001,1001,811,N/A,SL01-MSW SL03-Special Waste ,36,N/A,N/A,16,N/A,26,,,,,,
+694,3138,City of Browns,IL,Edwards,62818,,,1001,1001,818,N/A,SL01-MSW SL03-Special Waste ,36,N/A,N/A,16,N/A,26,,,,,,
+694,3138,City of Casey,IL,Clarke,62420,,,1001,1001,420,N/A,SL01-MSW SL03-Special Waste ,36,N/A,N/A,16,N/A,26,,,,,,
+694,3138,City of Grayville,IL,White,62844,,,1001,1001,844,N/A,SL01-MSW SL03-Special Waste ,36,N/A,N/A,16,N/A,26,,,,,,
+694,3138,City of Lawrenceville,IL,Lawrenceville,62439,,,1001,1001,439,N/A,SL01-MSW SL03-Special Waste ,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Flat Rock,IL,Crawford,62427,,,1001,1001,427,N/A,SL01-MSW SL03-Special Waste ,16,N/A,N/A,16,N/A,26,,,,,,
+694,3138,Hutsonville,IL,Crawford,62433,,,1001,1001,433,N/A,SL01-MSW SL03-Special Waste ,36,N/A,N/A,16,N/A,26,,,,,,
+694,3138,Mt. Carmel,IL,Wabash,62863,,,1001,1001,863,N/A,SL01-MSW SL03-Special Waste ,16,N/A,N/A,16,N/A,26,,,,,,
+694,3138,Newton,IL,Jasper,62448,,,1001,1001,448,N/A,SL01-MSW SL03-Special Waste ,16,N/A,N/A,16,N/A,26,,,,,,
+694,3138,Oblong,IL,Crawford,62449,,,1001,1001,449,N/A,SL01-MSW SL03-Special Waste ,36,N/A,N/A,16,N/A,26,,,,,,
+694,3138,Olney,IL,Richland,62450,,,1001,1001,450,N/A,SL01-MSW SL03-Special Waste ,36,N/A,N/A,16,N/A,26,,,,,,
+694,3138,Palestine,IL,Crawford,62451,,,1001,1001,451,N/A,SL01-MSW SL03-Special Waste ,36,N/A,N/A,16,N/A,26,,,,,,
+694,3138,Sumner,IL,Lawrenceville,62466,,,1001,1001,466,N/A,SL01-MSW SL03-Special Waste ,36,N/A,N/A,16,N/A,26,,,,,,
+694,3138,Village of Bone Gap,IL,Edwards,62815,,,1001,1001,815,N/A,SL01-MSW SL03-Special Waste ,36,N/A,N/A,16,N/A,26,,,,,,
+694,3138,Village of Hutsonville,IL,Crawford,62433,,,1001,1001,433,N/A,SL01-MSW SL03-Special Waste ,36,N/A,N/A,16,N/A,26,,,,,,
+694,3138,Village of Keensburg,IL,Wabash,62852,,,1001,1001,852,N/A,SL01-MSW SL03-Special Waste ,36,N/A,N/A,16,N/A,26,,,,,,
+694,3138,Village of Noble,IL,Richland,62868,,,1001,1001,868,N/A,SL01-MSW SL03-Special Waste ,36,N/A,N/A,16,N/A,26,,,,,,
+694,3138,Village of Xenia,IL,Clay,62899,,,1001,1001,899,N/A,SL01-MSW SL03-Special Waste ,36,N/A,N/A,16,N/A,26,,,,,,
+694,3138,West Salem,IL,Edwards,62476,,,1001,1001,476,N/A,SL01-MSW SL03-Special Waste ,36,N/A,N/A,16,N/A,26,,,,,,
+694,3138,Alfordsville,IN,Daviess,47553,,,0,1001,553,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Bicknell,IN,Knox,47512,,,0,1001,512,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Bruceville,IN,Knox,47516,,,0,1001,516,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Crane,IN,Martin,47522,,,0,1001,522,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Decker,IN,Knox,47524,,,0,1001,524,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Edwardsport,IN,Knox,47528,,,0,1001,528,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Elnora,IN,Daviess,47529,,,0,1001,529,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Loogootee,IN,Martin,47553,,,0,1001,553,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Monroe City,IN,Knox,47557,,,0,1001,557,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Montgomery,IN,Daviess,47558,,,0,1001,558,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Oaktown,IN,Knox,47561,,,0,1001,561,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Odon,IN,Daviess,47562,,,0,1001,562,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Plainville,IN,Daviess,47568,,,0,1001,568,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,sandburn,IN,Knox,47578,,,0,1001,578,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Shoals,IN,Martin,47581,,,0,1001,581,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Village of Oaktown,IN,Knox,47561,,,1001,1001,561,N/A,SL01-MSW SL03-Special Waste ,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Vincenness,IN,Knox,47591,,,0,1001,591,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,31,N/A,11,N/A,21,,,,,,
+694,3138,Washington,IN,Daviess,47501,,,0,1001,501,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3138,Wheatland,IN,Knox,47597,,,0,1001,597,N/A,VT01-MSW VT02-C&D VT03-Scrap Metal VT07-Recycle VT08-Cardboard,31,N/A,N/A,11,N/A,21,,,,,,
+694,3231,Charlotte, NC,Mecklenburg,"28212, 28213, 28262",,,0,0,60,,"XY01-Solid Waste 
+XY02-C&D",30,7A,7B,10,70,20,20,XY,"Tax Code: 0000
+Tax App: 0000","1 - Rental Fee
+0 - All other rates",If Other Code then change Code Title Name ,
+694,3231,Bainbridge,IN,Putnam,46105,,,0,0,105,,SR01-MSW SR02-C&D SR03-Special Waste ,30,N/A,N/A,10,N/A,20,N/A,N/A,Tax Code: 0000,0 - All rates,N/A,N/A
+694,3231,Bloomfield,IN,Greene,47424,,,0,0,"834, 802",,SR01-MSW SR02-C&D SR03-Special Waste ,30,N/A,N/A,10,N/A,20,N/A,N/A,Tax Code: 0000,1 - All rates,N/A,N/A
+694,3231,Brazil,IN,Clay,47834,,,0,0,834,,SR01-MSW SR02-C&D SR03-Special Waste ,30,N/A,N/A,10,N/A,20,N/A,N/A,Tax Code: 0000,2 - All rates,N/A,N/A
+694,3231,Carlisle,IN,Sullivan,46552,,,0,0,552,,SR01-MSW SR02-C&D SR03-Special Waste ,30,N/A,N/A,10,N/A,20,N/A,N/A,Tax Code: 0000,3 - All rates,N/A,N/A
+694,3231,Clay City,IN,Clay,47841,,,0,0,841,,SR01-MSW SR02-C&D SR03-Special Waste ,30,N/A,N/A,10,N/A,20,N/A,N/A,Tax Code: 0000,4 - All rates,N/A,N/A
+694,3231,Clinton,IN,Vermillion,47842,,,0,0,842,,SR01-MSW SR02-C&D SR03-Special Waste ,30,N/A,N/A,10,N/A,20,N/A,N/A,Tax Code: 0000,5 - All rates,N/A,N/A
+694,3231,Dugger,IN,Sullivan,47848,,,0,0,438,,SR01-MSW SR02-C&D SR03-Special Waste ,30,N/A,N/A,10,N/A,20,N/A,N/A,Tax Code: 0000,6 - All rates,N/A,N/A
+694,3231,Farmersburg,IN,Sullivan,47850,,,0,0,850,,SR01-MSW SR02-C&D SR03-Special Waste ,30,N/A,N/A,10,N/A,20,N/A,N/A,Tax Code: 0000,7 - All rates,N/A,N/A
+694,3231,Jasonville,IN,Greene,47438,,,0,0,438,,SR01-MSW SR02-C&D SR03-Special Waste ,30,N/A,N/A,10,N/A,20,N/A,N/A,Tax Code: 0000,8 - All rates,N/A,N/A
+694,3231,Rockville,IN,Parke,47872,,,0,0,872,,SR01-MSW SR02-C&D SR03-Special Waste ,30,N/A,N/A,10,N/A,20,N/A,N/A,Tax Code: 0000,9 - All rates,N/A,N/A
+694,3231,Rosedale,IN,Parke,47874,,,0,0,874,,SR01-MSW SR02-C&D SR03-Special Waste ,30,N/A,N/A,10,N/A,20,N/A,N/A,Tax Code: 0000,10 - All rates,N/A,N/A
+694,3231,Shelburn,IN,Sullivan,47879,,,0,0,879,,SR01-MSW SR02-C&D SR03-Special Waste ,30,N/A,N/A,10,N/A,20,N/A,N/A,Tax Code: 0000,11 - All rates,N/A,N/A
+694,3231,Sullivan,IN,Sullivan,47882,,,0,0,882,,SR01-MSW SR02-C&D SR03-Special Waste ,30,N/A,N/A,10,N/A,20,N/A,N/A,Tax Code: 0000,12 - All rates,N/A,N/A
+694,3231,Terre Haute,IN,Vigo,"47801, 47802, 47803, 47804, 47805, 47807, 47808, 47809",,,0,0,"801, 802, 803, 804, 805, 807, 808, 809",,SR01-MSW SR02-C&D SR03-Special Waste ,30,30,N/A,10,N/A,20,N/A,N/A,Tax Code: 0000,13 - All rates,N/A,N/A
+694,3231,Town of Farmersburg,IN,Sullivan,47850,,,0,0,850,,SR01-MSW SR02-C&D SR03-Special Waste ,30,N/A,N/A,10,N/A,20,N/A,N/A,Tax Code: 0000,14 - All rates,N/A,N/A
+694,3231,West Terre Haute,IN,Vigo,47885,,,0,0,855,,SR01-MSW SR02-C&D SR03-Special Waste ,30,30,N/A,10,10,20,N/A,N/A,Tax Code: 0000,15 - All rates,N/A,N/A
+782,4782,Ashland,SC,Lee,29010,N/A,5,31,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,N/A,N/A,20,,,,,,,,
+782,4782,Ashwood,SC,Lee,29010,N/A,5,31,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,N/A,N/A,20,,,,,,,,
+782,4782,Bishopville,SC,Lee,29010,N/A,5,31,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Brogdon,SC,Sumter,29150,5,5,43,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Camden,SC,Kershaw,29080,N/A,5,28,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,Refer to DIV 743,N/A,20,,,,,,,,
+782,4782,Cartersville,SC,Florence,29161,N/A,5,21,N/A,"LC01 - Solid Waste, PD30 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Cherryvale,SC,Sumter,29154,5,5,43,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Claussen,SC,Florence,29505,N/A,5,21,N/A,"LC01 - Solid Waste, PD30 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Coward,SC,Florence,29530,N/A,5,21,N/A,"LC01 - Solid Waste, PD30 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Dalzell,SC,Sumter,29040,5,5,43,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Darlington,SC,Darlington,"29532, 29540",N/A,5,16,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Dovesville,SC,Darlington,29540,N/A,5,16,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,East Sumter,SC,Sumter,29153,5,5,43,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Effingham,SC,Florence,29541,N/A,5,21,N/A,"LC01 - Solid Waste, PD30 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Elliott,SC,Lee,29406,N/A,5,31,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Evergreen,SC,Florence,29583,N/A,5,21,N/A,"LC01 - Solid Waste, PD30 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Florence,SC,Florence,"29501, 29502, 29503, 29504, 29505, 29506",5,5,21,N/A,"LC01 - Solid Waste, PD30 - C&D",30,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Floyd,SC,Darlington,29540,N/A,5,16,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Hagood,SC,Sumter,29128,5,5,43,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Hartsville,SC,Darlington,"29550, 29551",N/A,5,16,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Horatio,SC,Sumter,29062,5,5,43,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Lake City,SC,Florence,29560,N/A,5,21,N/A,"LC01 - Solid Waste, PD30 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Lamar,SC,Darlington,29069,N/A,5,16,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Lucknow,SC,Lee,29010,N/A,5,31,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Lydia,SC,Darlington,29079,N/A,5,16,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Lynchburg,SC,Lee,29080,N/A,5,31,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Manville,SC,Lee,29010,N/A,5,31,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,N/A,N/A,20,,,,,,,,
+782,4782,Mars Bluff,SC,Florence,29506,N/A,5,21,N/A,"LC01 - Solid Waste, PD30 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Mayesville,SC,Sumter,29104,5,5,43,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,10,70,20,,,,,,,,
+782,4782,McBee,SC,Chesterfield,29101,N/A,5,13,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Millwood,SC,Sumter,29556,5,5,43,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Mulberry,SC,Sumter,29153,5,5,43,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,10,70,20,,,,,,,,
+782,4782,North Hartsville,SC,Darlington,29550,N/A,5,16,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Oakland,SC,Sumter,29154,5,5,43,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Oates,SC,Darlington,29069,N/A,5,16,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Olanta,SC,Florence,29114,N/A,5,21,N/A,"LC01 - Solid Waste, PD30 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Oswego,SC,Sumter,29150,N/A,5,43,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Pinewood,SC,Sumter,29125,5,5,43,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,N/A,N/A,20,,,,,,,,
+782,4782,Quinby,SC,Florence,29506,N/A,5,21,N/A,"LC01 - Solid Waste, PD30 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Rembert,SC,Sumter,29128,5,5,43,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Scranton,SC,Florence,29591,N/A,5,21,N/A,"LC01 - Solid Waste, PD30 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Shiloh,SC,Sumter,29080,5,5,43,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Society Hill,SC,Darlington,29593,5,5,16,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,South Sumter,SC,Sumter,29150,5,5,43,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,10,70,20,,,,,,,,
+782,4782,St Charles,SC,Lee,29104,5,5,31,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,N/A,N/A,20,,,,,,,,
+782,4782,Stateburg,SC,Sumter,29150,5,5,43,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Sumter,SC,Sumter,"29150, 29151, 29153, 29154,",5,5,43,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,N/A,N/A,20,,,,,,,,
+782,4782,Timmonsville,SC,Florence,29161,5,5,21,N/A,"LC01 - Solid Waste, PD30 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Turbeville,SC,Clarendon,29162,5,5,14,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Una,SC,Darlington,29378,5,5,16,N/A,LC01 - Solid Waste & C&D,N/A,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Wedgefield,SC,Sumter,29168,5,5,43,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,10,70,20,,,,,,,,
+782,4782,Wisacky,SC,Lee,29010,5,5,31,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,N/A,N/A,20,,,,,,,,
+782,4782,Woodrow,SC,Lee,29040,5,5,31,N/A,LC01 - Solid Waste & C&D,30,N/A,N/A,N/A,N/A,20,,,,,,,,
+803,3803,Aldie,VA,Loudoun,20105,0,0,105,N/A,"LD01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Alexandria,VA,Fairfax,"22301, 22302, 22303, 22304, 22305, 22306, 22307, 22308, 22309, 22310, 22311, 22312, 22313, 22314, 22003",0,0,"301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315",N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Annandale,VA,Fairfax,22003,0,0,3,N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Arcola,VA,Loudoun,20107,0,0,107,N/A,"LD01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Arlington,VA,Fairfax,"22201, 22202, 22203, 22204, 22205, 22206, 22207, 22209, 22211, 22213",0,0,"201, 202, 203, 204, 205, 206, 207, 209, 211, 213",N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Ashburn,VA,Loudoun,"20145, 20146, 20147, 20148",0,0,"145, 146, 147, 148",N/A,"LD01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Bristow,VA,Prince William,20136,0,0,136,N/A,"PW01 - Solid Waste, CR01 - C&D",30,7A,N/A,10,70,20,,,,,,,,
+803,3803,Broad Run,VA,Prince William,20137,0,0,137,N/A,"PW01 - Solid Waste, CR01 - C&D",30,7A,N/A,10,70,20,,,,,,,,
+803,3803,Burke,VA,Fairfax,22015,0,0,15,N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Catharpin,VA,Prince William,20143,0,0,143,N/A,"PW01 - Solid Waste, CR01 - C&D",30,7A,N/A,10,70,20,,,,,,,,
+803,3803,Centreville,VA,Fairfax,"20120, 20121, 20122",0,0,"120, 121, 122",N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Chantilly,VA,Fairfax,"20151, 20152",0,0,151,N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Clifton,VA,Fairfax,"20124, 22024",0,0,"24, 124",N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Dale City,VA,Prince William,22193,0,0,193,N/A,"PW01 - Solid Waste, CR01 - C&D",30,7A,N/A,10,70,20,,,,,,,,
+803,3803,Dumfries,VA,Prince William,"22025, 22026",0,0,"25, 26",N/A,"PW01 - Solid Waste, CR01 - C&D",30,7A,N/A,10,70,20,,,,,,,,
+803,3803,Dunn Loring,VA,Fairfax,22027,0,0,27,N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Fairfax,VA,Fairfax,"22030, 22031, 22032, 22033, 22037",0,0,"30, 31, 32, 33, 37",N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Fairfax Station,VA,Fairfax,22039,0,0,39,N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Falls Church,VA,Fairfax,"22041, 22042, 22043, 22044, 22046",0,0,"41, 42, 43, 44, 46",N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Fort Belvoir,VA,Fairfax,22060,0,0,60,N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Gainesville,VA,Prince William,20155,0,0,155,N/A,"PW01 - Solid Waste, CR01 - C&D",30,7A,N/A,10,70,20,,,,,,,,
+803,3803,Great Falls,VA,Fairfax,22066,0,0,66,N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Hamilton,VA,Loudoun,20158,0,0,158,N/A,"LD01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Haymarket,VA,Prince William,"20156, 20168, 20169",0,0,"156, 168, 169,",N/A,"PW01 - Solid Waste, CR01 - C&D",30,7A,N/A,10,70,20,,,,,,,,
+803,3803,Herndon,VA,Fairfax,"20170, 20171, 20172",0,0,"170, 171, 172",N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Leesburg,VA,Loudoun,"20175, 20176, 20177",0,0,"175, 176, 177",N/A,"LD01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Lorton,VA,Fairfax,"22079, 22199",0,0,"79, 199",N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Manassas,VA,Prince William,"20108, 20109, 20110, 20111, 20112, 20113",0,0,"108, 109, 110, 111,112, 113",N/A,"PW01 - Solid Waste, CR01 - C&D",30,7A,N/A,10,70,20,,,,,,,,
+803,3803,Manassas Park,VA,Prince William,"20111, 20113",0,0,"111, 113",N/A,"PW01 - Solid Waste, CR01 - C&D",30,7A,N/A,10,70,20,,,,,,,,
+803,3803,Mclean,VA,Fairfax,"22010, 22101, 22102",0,0,"10, 101, 102",N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Merrifield,VA,Fairfax,22116,0,0,116,N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Mount Vernon,VA,Fairfax,22121,0,0,121,N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Newington,VA,Fairfax,22122,0,0,422,N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Nokesville,VA,Prince William,"20181, 20182",0,0,"181, 482",N/A,"PW01 - Solid Waste, CR01 - C&D",30,7A,N/A,10,70,20,,,,,,,,
+803,3803,Oakton,VA,Fairfax,22124,0,0,424,N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Occoquan,VA,Prince William,22125,0,0,198,N/A,"PW01 - Solid Waste, CR01 - C&D",30,7A,N/A,10,70,20,,,,,,,,
+803,3803,Paeonian Springs,VA,Loudoun,20129,0,0,129,N/A,"LD01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Purcellville,VA,Loudoun,"20132, 20134",0,0,"132, 434",N/A,"LD01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Quantico,VA,Prince William,22134,0,0,134,N/A,"PW01 - Solid Waste, CR01 - C&D",30,7A,N/A,10,70,20,,,,,,,,
+803,3803,Reston,VA,Fairfax,"20190, 20191, 20194, 20195",0,0,190,N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Round Hill,VA,Loudoun,20141,0,0,141,N/A,"LD01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,South Riding,VA,Loudoun,20152,0,0,141,N/A,"LD01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Springfield,VA,Fairfax,"22153, 22150, 22151, 22152, 22159",0,0,"153, 150, 451, 452",N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Stafford,VA,Stafford,22554,0,0,554,N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,,10,70,20,,,,,,,,
+803,3803,Sterling,VA,Loudoun,"20164, 20165, 20166",0,0,"164, 165, 166",N/A,"LD01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Triangle,VA,Prince William,22172,0,0,472,N/A,"PW01 - Solid Waste, CR01 - C&D",30,7A,N/A,10,70,20,,,,,,,,
+803,3803,Vienna,VA,Fairfax,"22180, 22181, 22182, 22183, 22184",0,0,"180, 182, 183, 184, 481",N/A,"FX01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Warrenton,VA,Faquier,20186,0,0,186,N/A,"FX01 - Solid Waste, CR01 - C&D",N/A,N/A,,10,70,20,,,,,,,,
+803,3803,Waterford,VA,Loudoun,20197,0,0,197,N/A,"LD01 - Solid Waste, CR01 - C&D",30,7A,7Y,10,70,20,,,,,,,,
+803,3803,Woodbridge,VA,Prince William,"22191, 22192",0,0,"192, 491",N/A,"PW01 - Solid Waste, CR01 - C&D",30,7A,N/A,10,70,20,,,,,,,,
+866,3105,BEAUFORT,SC,BEAUFORT,"29901, 29902, 29903, 29904, 29905, 29906",0,0,102,"HH 21 - MSW
+ AB 03 - C&D",30,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,BLUFFTON,SC,BEAUFORT,29910,0,0,100,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,DAUFUSKIE,SC,BEAUFORT,29915,0,0,140,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10 - Flip anything solid for this Island to the division.,70 - Flip anything solid for this Island to the division.,20 - Flip anything solid for this Island to the division.,,,,,,,,,
+866,3105,EARLY BRANCH,SC,HAMPTON,29916,0,0,145,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,ESTILL,SC,HAMPTON,29918,0,0,150,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,FAIRFAX,SC,ALLENDALE,29827,0,0,N/A,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,N/A,N/A,N/A,,,,,,,,,
+866,3105,FRIPP ISLAND,SC,BEAUFORT,29920,0,0,155,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,HAMPTON,SC,HAMPTON,29924,0,0,110,"HH 21 - MSW
+ AB 03 - C&D",30,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,HARDEEVILLE,SC,JASPER,29927,0,0,115,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,HILTON HEAD,SC,BEAUFORT,"29925, 29926, 29928, 29938",0,0,120,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,LADYS ISLAND,SC,BEAUFORT,29907,0,0,125,"HH 21 - MSW
+ AB 03 - C&D",30,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,LEVY,SC,JASPER,29927,0,0,160,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,LURAY,SC,HAMPTON,29932,0,0,165,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,OKATIE,SC,BEAUFORT,29909,0,0,170,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,PINELAND,SC,JASPER,29934,0,0,178,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,PORT ROYAL,SC,BEAUFORT,29935,0,0,175,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,RIDGELAND,SC,JASPER,29936,0,0,180,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,N/A,20,,,,,,,,,
+866,3105,SEABROOK,SC,BEAUFORT,29940,0,0,185,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,SHELDON,SC,BEAUFORT,29941,0,0,133,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,ST HELENA ISLAND,SC,BEAUFORT,29920,0,0,130,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,TILLMAN,SC,JASPER,29943,0,0,190,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,N/A,20,,,,,,,,,
+866,3105,VARNVILLE,SC,HAMPTON,29944,0,0,195,"HH 21 - MSW
+ AB 03 - C&D",N/A,N/A,N/A,10,70,20,,,,,,,,,
+866,3105,YEMASSEE,SC,HAMPTON,29945,0,0,135,"HH 21 - MSW
+ AB 03 - C&D",30,N/A,N/A,10,70,20,,,,,,,,,
